@@ -1,4 +1,5 @@
 +++
+template = "index.html"
 title = "Schnittstellenanalyse"
 description = "Schnittstellen sind ein zentrales Element der Zusammenarbeit"
 # The last updated date of the post 
