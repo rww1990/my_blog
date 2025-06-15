@@ -1,9 +1,7 @@
 +++
 title = "Schnittstellenanalyse"
 description = "Schnittstellen sind ein zentrales Element der Zusammenarbeit"
-date = 2025-04-30
-# The last updated date of the post
-updated = 2025-04-28
+# The last updated date of the post 
 
 [extra]
 
