@@ -4,44 +4,6 @@ title = "Schnittstellenanalyse"
 description = "Schnittstellen sind ein zentrales Element der Zusammenarbeit"
 # The last updated date of the post 
 
-[extra]
-
-# Enable comments.
-comment = true
-
-# Enable KaTeX support.
-math = true
-
-# Enable Mermaid support.
-mermaid = true
-
-# Default value: config.extra.page_summary_on_paginator
-page_summary_on_paginator = true
-
-# Default value:
-#  config.extra.page_info or config.extra.page_info_on_paginator
-page_info = []
-
-# Default value: config.extra.toc
-toc = true
-
-# For the archive.html template.
-section = "_index.md"
-
-[extra.cover]
-
-# Path to the cover image.
-image = "/images/schnittstellenanalyse.webp"
-# A description of the cover image.
-alt = "screenshot"
-
-# Width of the cover image in pixels.
-# Default value: get_image_metadata()
-# width =
-# Height of the cover image in pixels.
-# Default value: get_image_metadata()
-# height =
-
 +++
 
 # Linkita
