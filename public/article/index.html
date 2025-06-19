@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="not-ready lg:text-base overflow-y-scroll scroll-pt-14" lang="en">
 
-<head prefix="og: https://ogp.me/ns#">
+<head prefix="og: https://ogp.me/ns# article: https://ogp.me/ns/article#">
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -10,9 +10,16 @@
   <meta property="og:title" content="Schnittstellenanalyse" />
   <meta name="description" content="Schnittstellen sind ein zentrales Element der Zusammenarbeit" />
   <meta property="og:description" content="Schnittstellen sind ein zentrales Element der Zusammenarbeit" />
-  <meta property="og:url" content="https://ba-tools.de/" />
-  <link rel="canonical" href="https://ba-tools.de/" />
-  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ba-tools.de/article/" />
+  <link rel="canonical" href="https://ba-tools.de/article/" />
+  <meta property="og:type" content="article" />
+  <meta property="article:published_time" content="2025-04-30T00:00:00+00:00" />
+  <meta property="article:modified_time" content="2025-04-30T00:00:00+00:00" />
+  <meta property="og:image" content="https://ba-tools.de/images/schnittstellenanalyse.webp" />
+  <meta property="og:image:alt" content="screenshot" />
+  <meta property="og:image:width" content="1456" />
+  <meta property="og:image:height" content="816" />
+  <meta property="og:image:type" content="image/webp" />
   <!-- Begin Head inject -->
   
   <!-- End Head inject -->
@@ -27,6 +34,10 @@
   <link rel="icon" type="image/png" href="https://ba-tools.de/android-icon.png?h=8d80ec95446bd2c36826" />
   <script src="https://ba-tools.de/js/linkita.min.js?h=1dd3ed42fc674277bc34"></script>
   <script src="https://ba-tools.de/js/linkita-search.min.js?h=698547b4b081d012c661"></script>
+  <link rel="stylesheet" href="https://ba-tools.de/katex/katex.min.css?h=19095127357ed6d29fe0" />
+  <script defer src="https://ba-tools.de/katex/katex.min.js?h=e8d885505949f3a5f4ab"></script>
+  <script defer src="https://ba-tools.de/katex/contrib/auto-render.min.js?h=bb53eb953394531aae36"></script>
+  <script>document.addEventListener("DOMContentLoaded", window.linkita.initKatex);</script>
   <!-- Begin Head End inject -->
   
   <!-- End Head End inject -->
@@ -67,8 +78,71 @@
 </div>
 
     
-    <h1 class="mb-16">Schnittstellenanalyse</h1>
-    <section><h1 id="linkita">Linkita</h1>
+<article>
+  <!-- Begin Page Start inject -->
+  
+  <!-- End Page Start inject -->
+
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Schnittstellenanalyse</h1>
+    <!-- Page Info -->
+<div class="text-sm antialiased opacity-80">
+</div>
+
+  </header>
+  <figure class="mb-12 mt-0">
+    <img
+      class="h-auto w-full rounded-lg"
+      src="https://ba-tools.de/images/schnittstellenanalyse.webp"
+      alt="screenshot"
+      width="1456"
+      height="816"
+    />
+  </figure>
+  <!-- TOC -->
+<div class="block-bg mb-12 rounded-lg p-2 text-lg">
+  <details>
+    <summary class="select-none py-0.5 lg:py-1 pl-4" accesskey="=">
+      <span class="cursor-pointer">Table of Contents</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        <li>
+          <a class="no-underline hover:underline" href="https://ba-tools.de/article/#linkita">Linkita</a>
+          <ul>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/article/#features">Features</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/article/#installing">Installing</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/article/#managing-versions">Managing versions</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/article/#usage">Usage</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/article/#configuring">Configuring</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/article/#license">License</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/article/#contributing">Contributing</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/article/#sites-using-linkita">Sites using Linkita</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+  <!-- Content -->
+  <section><h1 id="linkita">Linkita</h1>
 <p>A clean and elegant blog theme for <a href="https://www.getzola.org/">Zola</a>.
 Linkita is based on <a href="https://github.com/st1020/kita">Kita</a> and <a href="https://github.com/nanxiaobei/hugo-paper">Hugo-Paper</a> and is multilingual and SEO friendly.</p>
 <ul>
@@ -204,7 +278,7 @@ Set the ones you need.</p>
 </span></code></pre>
 <p>Do it for each language in your blog.
 For French, the file name is <code>content/_index.fr.md</code>.</p>
-<p>See <a href="https://ba-tools.de/#profiles">Profiles</a> for more.</p>
+<p>See <a href="https://ba-tools.de/article/#profiles">Profiles</a> for more.</p>
 <h4 id="posts">Posts</h4>
 <p>In the <code>content</code> directory, create a subdirectory named <code>blog</code> or another name of your choice.</p>
 <p>Create a <code>content/blog/_index.md</code> file:</p>
@@ -698,31 +772,16 @@ Only available when <code>extra.comment</code> in the front matter or <code>extr
 </ul>
 <p>If your blog uses Linkita and is open source, feel free to create a pull request to add it to this list.</p>
 </section>
-      <!-- Page List -->
-<section
-  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
->
-  <figure class="mb-4 mt-0">
-    <img
-      class="h-auto w-full rounded-lg"
-      src="https://ba-tools.de/images/schnittstellenanalyse.webp"
-      alt="screenshot"
-    />
-  </figure>
+  <hr />
+  <!-- Post Taxonomies -->
 
-  <h2 class="!my-0 pb-1 font-bold !leading-none">Schnittstellenanalyse</h2>
-  <div class="not-prose my-1 truncate">
-    <p>Schnittstellen sind ein zentrales Element der Zusammenarbeit</p>
-  </div>
+  <!-- Comment -->
 
-  <!-- Page Info -->
-<div class="text-sm antialiased opacity-80">
-</div>
+  <!-- Begin Page End inject -->
+  
+  <!-- End Page End inject -->
+</article>
 
-  <a class="absolute inset-0 text-[0]" href="https://ba-tools.de/article/">Schnittstellenanalyse</a>
-</section>
-
-    
   </main>
   <!-- Footer -->
 <footer class="mx-auto flex lg:mt-5 max-w-3xl flex-wrap items-center px-4 py-3 text-sm opacity-60">
@@ -741,6 +800,40 @@ Only available when <code>extra.comment</code> in the front matter or <code>extr
 </footer>
 
   
+    <!-- Mermaid -->
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  function initMermaid(isDark) {
+    mermaid.initialize({
+      theme: isDark ? "dark" : "default",
+      themeVariables: {
+        darkMode: isDark
+      },
+      startOnLoad: false,
+    });
+    mermaid.run();
+  };
+
+  // Add data-mermaid-code attribute on all mermaid block.
+  document.querySelectorAll(".mermaid").forEach((element) => {
+    element.setAttribute("data-mermaid-code", element.innerHTML);
+  });
+
+  initMermaid(document.documentElement.classList.contains("dark"));
+
+  // Re-render mermaid when theme changed.
+  document.body.addEventListener("set-theme", (e) => {
+    document.querySelectorAll(".mermaid").forEach((element) => {
+      const mermaidCode = element.getAttribute("data-mermaid-code");
+      if (mermaidCode != null) {
+        element.removeAttribute("data-processed");
+        element.innerHTML = mermaidCode;
+      }
+    });
+    initMermaid(e.detail === "dark");
+  });
+</script>
+
 
   <!-- Begin Body End inject -->
   
