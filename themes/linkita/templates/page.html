@@ -28,7 +28,6 @@
   {%- endif %}
   {%- set page_toc = true %}
   {% include "partials/toc.html" %}
-  <p class="post-date">{{ page.date | date(format="%d. %B %Y") }}</p>
   <!-- Content -->
   <section>{{ page.content | safe }}</section>
   <hr />
