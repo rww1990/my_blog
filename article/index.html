@@ -108,31 +108,40 @@
     <div class="px-2">
       <ul>
         <li>
-          <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#linkita">Linkita</a>
+          <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#schnittstellenanalyse-definition-methoden-und-best-practices">Schnittstellenanalyse: Definition, Methoden und Best Practices</a>
           <ul>
             <li>
-              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#features">Features</a>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#was-ist-eine-schnittstellenanalyse">Was ist eine Schnittstellenanalyse?</a>
             </li>
             <li>
-              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#installing">Installing</a>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#ziele-und-nutzen">Ziele und Nutzen</a>
             </li>
             <li>
-              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#managing-versions">Managing versions</a>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#typen-von-schnittstellen">Typen von Schnittstellen</a>
             </li>
             <li>
-              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#usage">Usage</a>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#anwendungsbereiche">Anwendungsbereiche</a>
             </li>
             <li>
-              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#configuring">Configuring</a>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#schnittstellen-in-der-softwareentwicklung">Schnittstellen in der Softwareentwicklung</a>
             </li>
             <li>
-              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#license">License</a>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#schnittstellenanalyse-im-prozesskontext">Schnittstellenanalyse im Prozesskontext</a>
             </li>
             <li>
-              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#contributing">Contributing</a>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#methoden-des-schnittstellenmanagements">Methoden des Schnittstellenmanagements</a>
             </li>
             <li>
-              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#sites-using-linkita">Sites using Linkita</a>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#5-tipps-fur-die-praxis">5 Tipps für die Praxis</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#vor-und-nachteile-der-methode">Vor-  und Nachteile der Methode</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#schnittstellenanalyse-vorlage">Schnittstellenanalyse Vorlage</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/article/#fazit-schnittstellen-als-erfolgsfaktor">Fazit: Schnittstellen als Erfolgsfaktor</a>
             </li>
           </ul>
         </li>
@@ -142,635 +151,140 @@
 </div>
 
   <!-- Content -->
-  <section><h1 id="linkita">Linkita</h1>
-<p>A clean and elegant blog theme for <a href="https://www.getzola.org/">Zola</a>.
-Linkita is based on <a href="https://github.com/st1020/kita">Kita</a> and <a href="https://github.com/nanxiaobei/hugo-paper">Hugo-Paper</a> and is multilingual and SEO friendly.</p>
+  <section><h1 id="schnittstellenanalyse-definition-methoden-und-best-practices">Schnittstellenanalyse: Definition, Methoden und Best Practices</h1>
+<p>In einer zunehmend vernetzten Welt sind <strong>Schnittstellen</strong> der kritische Kitt zwischen Systemen, Prozessen und Organisationseinheiten. Eine saubere Schnittstellenanalyse entscheidet oft darüber, ob Systeme effizient, skalierbar und wartbar sind – oder scheitern. In diesem Artikel analysieren wir die Methode tiefgehend, zeigen typische Fehler auf, geben praxisnahe Tipps und liefern eine Vorlage für eigene Analysen.</p>
+<h2 id="was-ist-eine-schnittstellenanalyse">Was ist eine Schnittstellenanalyse?</h2>
+<p>Die <strong>Schnittstellenanalyse</strong> (engl. <em>Interface Analysis</em>) ist eine strukturierte Methode zur Untersuchung von Kommunikationspunkten zwischen Systemen, Komponenten oder Organisationseinheiten. Ziel ist es, Klarheit über Art, Umfang, Zeitpunkt und Zweck des Informationsaustauschs zu gewinnen.</p>
+<p>Dabei werden zentrale Fragen geklärt:</p>
 <ul>
-<li>The source code is available on <a href="https://codeberg.org/salif/linkita">Codeberg</a> and mirrored on <a href="https://github.com/salif/linkita">GitHub</a>.</li>
-<li>For discussion, join the <a href="https://matrix.to/#/#linkita:mozilla.org">Matrix chat room</a>.</li>
-<li>Open bug reports and feature requests on <a href="https://codeberg.org/salif/linkita/issues">Codeberg</a>.</li>
-<li>See <a href="https://codeberg.org/salif/linkita-demo">demo source code</a>.</li>
-<li>Live preview in:
+<li><strong>Wo</strong> findet der Austausch statt?</li>
+<li><strong>Was</strong> wird übertragen (Daten, Befehle, Materialien)?</li>
+<li><strong>Wann</strong> erfolgt der Austausch?</li>
+<li><strong>Warum</strong> ist die Schnittstelle notwendig?</li>
+<li><strong>Wie</strong> ist sie technisch oder organisatorisch ausgestaltet?</li>
+<li><strong>Für wen</strong> ist sie relevant?</li>
+</ul>
+<p>Diese Analyse ist sowohl im technischen Umfeld (z. B. APIs) als auch im geschäftlichen Kontext (z. B. Prozessübergaben) zentral.</p>
+<hr />
+<h2 id="ziele-und-nutzen">Ziele und Nutzen</h2>
+<p>Eine frühzeitige Schnittstellenanalyse hat mehrere zentrale Vorteile:</p>
 <ul>
-<li><a href="https://salif.github.io/linkita/en/">English</a>, <a href="https://salif.github.io/linkita/">Bulgarian</a>, <a href="https://salif.github.io/linkita/eo/">Esperanto</a>.</li>
-<li><a href="https://salif.github.io/linkita/zh/">Chinese</a>, <a href="https://salif.github.io/linkita/ar/">Arabic</a>, <a href="https://salif.github.io/linkita/tr/">Turkish</a>, <a href="https://salif.github.io/linkita/gb/">Globasa</a>.</li>
+<li><strong>Fehlervermeidung durch Transparenz</strong>: Unklare Schnittstellen sind eine Hauptursache für Projektversagen.</li>
+<li><strong>Strukturierte Anforderungsdefinition</strong>: Klar definierte Schnittstellen erleichtern Requirements Engineering.</li>
+<li><strong>Stakeholder-Management</strong>: Die Analyse zeigt, wer betroffen ist – und wie stark.</li>
+<li><strong>Zukunftssicherheit</strong>: Saubere Schnittstellen erleichtern Erweiterungen und Wartung.</li>
 </ul>
-</li>
-</ul>
-<h2 id="features">Features</h2>
+<blockquote>
+<p>Wichtig: Der Detailgrad der Analyse muss sich an der Komplexität und Kritikalität der Schnittstelle orientieren.</p>
+</blockquote>
+<hr />
+<h2 id="typen-von-schnittstellen">Typen von Schnittstellen</h2>
+<p>Schnittstellen lassen sich nach Funktion, Beteiligten und technischer Umsetzung kategorisieren:</p>
 <ul>
-<li>Easy to use and modify</li>
-<li>No preset limits</li>
-<li>Inject support</li>
-<li>Dark mode</li>
-<li>Responsive design</li>
-<li>Social icons</li>
-<li>Taxonomies support</li>
-<li>Projects page</li>
-<li>Archive page</li>
-<li>Table of Content</li>
-<li>Admonition shortcode</li>
-<li>SEO friendly</li>
-<li>Comments using <a href="https://giscus.app/">Giscus</a></li>
-<li>Mathematical notations using <a href="https://katex.org/">KaTeX</a></li>
-<li>Diagrams and charts using <a href="https://mermaid.js.org/">Mermaid</a></li>
-<li>Multilingual support</li>
-<li>Search support (elasticlunr_javascript)</li>
-<li>Improved search engine optimization</li>
-<li>Improved configurability</li>
-<li>Author profiles</li>
-<li>Projects shortcode</li>
-<li>Keyboard shortcuts</li>
-<li>Relative URLs support</li>
+<li><strong>Benutzerschnittstellen (UI)</strong>: Mensch-Maschine-Interaktion</li>
+<li><strong>Organisatorische Schnittstellen</strong>: Verantwortungs- oder Abteilungsübergänge</li>
+<li><strong>Geschäftsprozessschnittstellen</strong>: Zwischenprozesse innerhalb oder zwischen Organisationen</li>
+<li><strong>Datenschnittstellen</strong>: Tabellen, CSV, APIs, Datenbanken</li>
+<li><strong>Programmierschnittstellen (APIs)</strong>: Softwarekommunikation über REST, SOAP etc.</li>
+<li><strong>Externe Schnittstellen</strong>: zu Kunden, Lieferanten, Behörden</li>
+<li><strong>Hardware-Schnittstellen</strong>: physische Verbindungspunkte zwischen Geräten</li>
 </ul>
-<h2 id="installing">Installing</h2>
-<ol start="0">
-<li>Create a new Zola site if you haven't already:</li>
-</ol>
-<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">zola</span><span> init myblog
-</span><span style="color:#96b5b4;">cd</span><span> myblog
-</span><span style="color:#bf616a;">git</span><span> init
-</span></code></pre>
+<hr />
+<h2 id="anwendungsbereiche">Anwendungsbereiche</h2>
+<p>Die Schnittstellenanalyse wird heute in fast allen Branchen eingesetzt:</p>
+<ul>
+<li><strong>Softwareentwicklung</strong>: Klärung interner und externer Modulgrenzen</li>
+<li><strong>Systemintegration</strong>: Harmonisierung heterogener IT-Systeme</li>
+<li><strong>Web-/App-Design</strong>: Optimierung von UI-Interaktionen</li>
+<li><strong>Industrielle Automatisierung</strong>: Steuerung von Sensoren, Aktoren, PLC</li>
+<li><strong>Telekommunikation</strong>: Netzübergreifende Protokollabstimmung</li>
+</ul>
+<hr />
+<h2 id="schnittstellen-in-der-softwareentwicklung">Schnittstellen in der Softwareentwicklung</h2>
+<p>APIs sind die DNA moderner Softwaresysteme. Sie ermöglichen:</p>
+<ul>
+<li>modulare Architektur,</li>
+<li>lose Kopplung,</li>
+<li>Wiederverwendbarkeit,</li>
+<li>und Integration mit Drittsystemen.</li>
+</ul>
+<p>Fehlende oder schlecht dokumentierte Schnittstellen führen zu:</p>
+<ul>
+<li>redundanter Entwicklung,</li>
+<li>schwer wartbarem Code,</li>
+<li>erhöhter Fehlerrate im Betrieb.</li>
+</ul>
+<p>Schnittstellenentwicklung bedeutet also nicht nur technische Realisierung, sondern auch Governance: Versionierung, Monitoring, Access-Management.</p>
+<hr />
+<h2 id="schnittstellenanalyse-im-prozesskontext">Schnittstellenanalyse im Prozesskontext</h2>
+<p>"<strong>Prozessschnittstellen</strong>" sind Übergabepunkte in betrieblichen Abläufen, z. B. zwischen:</p>
+<ul>
+<li>Vertrieb und Produktion,</li>
+<li>HR und Payroll,</li>
+<li>Einkauf und Buchhaltung.</li>
+</ul>
+<p>Typische Probleme:</p>
+<ul>
+<li>Medienbrüche (z. B. Excel-Listen)</li>
+<li>Doppelerfassung</li>
+<li>Unklare Zuständigkeiten</li>
+</ul>
+<p><strong>Analysefrage</strong>: Welche Informationen, Dokumente oder Entscheidungen müssen wann, wie und zwischen welchen Rollen ausgetauscht werden?</p>
+<hr />
+<h2 id="methoden-des-schnittstellenmanagements">Methoden des Schnittstellenmanagements</h2>
+<p>Die reine Analyse reicht nicht. Schnittstellen müssen auch <strong>aktiv gemanagt</strong> werden. Relevante Methoden:</p>
+<ul>
+<li><strong>SIPOC-Diagramme</strong> (Supplier-Input-Process-Output-Customer)</li>
+<li><strong>RACI-Matrix</strong> zur Klärung von Verantwortlichkeiten</li>
+<li><strong>UML/SysML-Modelle</strong> für technische Schnittstellen</li>
+<li><strong>BPMN</strong> für Prozessschnittstellen</li>
+<li><strong>Interface Contracts</strong> (technische und fachliche Spezifikationen)</li>
+<li><strong>Change Management</strong> zur Sicherung der Akzeptanz</li>
+</ul>
+<hr />
+<h2 id="5-tipps-fur-die-praxis">5 Tipps für die Praxis</h2>
 <ol>
-<li>Add the theme as a git submodule:</li>
+<li><strong>Frühzeitig starten</strong>: Schnittstellenanalyse vor der detaillierten Fachkonzeption einplanen.</li>
+<li><strong>Stakeholder einbeziehen</strong>: Wissensträger identifizieren und systematisch befragen.</li>
+<li><strong>Vielfalt der Methoden nutzen</strong>: Interviews, Dokumentenanalyse, Workshops, Modellierung.</li>
+<li><strong>Visualisieren</strong>: Tabellen, Flussdiagramme, Swimlanes, Architekturskizzen helfen.</li>
+<li><strong>Lebendes Dokument schaffen</strong>: Schnittstellen unterliegen Wandel – Pflege ist Pflicht.</li>
 </ol>
-<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">git</span><span> submodule add https://codeberg.org/salif/linkita.git themes/linkita
-</span></code></pre>
-<p>If you don't want to use git submodules, you can clone the repository instead: <code>git clone https://codeberg.org/salif/linkita.git themes/linkita</code></p>
-<ol start="2">
-<li>Enable the theme in your <code>config.toml</code> file:</li>
-</ol>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span style="color:#bf616a;">theme </span><span>= &quot;</span><span style="color:#a3be8c;">linkita</span><span>&quot;
-</span></code></pre>
-<p>Place it near the <code>base_url</code> variable, not under <code>[extra]</code>.</p>
-<h2 id="managing-versions">Managing versions</h2>
-<p>To update the theme, run:</p>
-<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">git</span><span> submodule update</span><span style="color:#bf616a;"> --remote</span><span> themes/linkita
-</span></code></pre>
-<p>Check the <a href="https://codeberg.org/salif/linkita/src/branch/linkita/CHANGELOG.md">changelog</a>
-for all versions after the one you are using. There may be breaking changes that require manual involvement.</p>
-<p>If and only if you use Tailwind classes in your templates directory, run:</p>
-<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#96b5b4;">cd</span><span> themes/linkita
-</span><span style="color:#bf616a;">pnpm</span><span> tailwindcss</span><span style="color:#bf616a;"> -i</span><span> ./src/app.css</span><span style="color:#bf616a;"> -o</span><span> ../../static/main.min.css</span><span style="color:#bf616a;"> --minify
-</span></code></pre>
-<h2 id="usage">Usage</h2>
-<p>Linkita uses the following front matter variables.
-All variables are optional.
-Set the ones you need.</p>
-<h3 id="yaml-frontmatter">YAML frontmatter</h3>
-<pre data-lang="yaml" data-name="frontmatter" style="background-color:#2b303b;color:#c0c5ce;" class="language-yaml "><code class="language-yaml" data-lang="yaml" data-name="frontmatter"><span>---
-</span><span style="color:#bf616a;">title</span><span>: &quot;&quot;
-</span><span style="color:#bf616a;">description</span><span>: &quot;&quot;
-</span><span style="color:#bf616a;">date</span><span>: 
-</span><span style="color:#bf616a;">updated</span><span>: 
-</span><span style="color:#bf616a;">taxonomies</span><span>:
-</span><span>  </span><span style="color:#bf616a;">categories</span><span>:
-</span><span>  </span><span style="color:#bf616a;">tags</span><span>:
-</span><span style="color:#bf616a;">extra</span><span>:
-</span><span>  </span><span style="color:#bf616a;">comment</span><span>: </span><span style="color:#d08770;">false
-</span><span>  </span><span style="color:#bf616a;">math</span><span>: </span><span style="color:#d08770;">false
-</span><span>  </span><span style="color:#bf616a;">mermaid</span><span>: </span><span style="color:#d08770;">false
-</span><span>  </span><span style="color:#bf616a;">cover</span><span>:
-</span><span>    </span><span style="color:#bf616a;">image</span><span>: &quot;&quot;
-</span><span>    </span><span style="color:#bf616a;">alt</span><span>: &quot;&quot;
-</span><span>---
-</span></code></pre>
-<h3 id="toml-frontmatter">TOML frontmatter</h3>
-<pre data-lang="toml" data-name="frontmatter" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="frontmatter"><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span><span style="color:#bf616a;">title </span><span>= &quot;&quot;
-</span><span style="color:#bf616a;">description </span><span>= &quot;&quot;
-</span><span style="color:#65737e;"># The date of the post
-</span><span style="color:#bf616a;">date </span><span>= </span><span style="color:#d08770;">2025-12-30
-</span><span style="color:#65737e;"># The last updated date of the post
-</span><span style="color:#bf616a;">updated </span><span>= </span><span style="color:#d08770;">2025-12-31
-</span><span>
-</span><span>[taxonomies]
-</span><span style="color:#bf616a;">categories </span><span>= []
-</span><span style="color:#bf616a;">tags </span><span>= []
-</span><span>
-</span><span>[extra]
-</span><span style="color:#65737e;"># Enable comments
-</span><span style="color:#bf616a;">comment </span><span>= </span><span style="color:#d08770;">false
-</span><span style="color:#65737e;"># Enable KaTeX support
-</span><span style="color:#bf616a;">math </span><span>= </span><span style="color:#d08770;">false
-</span><span style="color:#65737e;"># Enable Mermaid support
-</span><span style="color:#bf616a;">mermaid </span><span>= </span><span style="color:#d08770;">false
-</span><span>[extra.cover]
-</span><span style="color:#65737e;"># Path to the cover image
-</span><span style="color:#bf616a;">image </span><span>= &quot;&quot;
-</span><span style="color:#65737e;"># A description of the cover image
-</span><span style="color:#bf616a;">alt </span><span>= &quot;&quot;
-</span><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span></code></pre>
-<h3 id="other-extra-front-matter-variables">Other extra front matter variables</h3>
-<p>Linkita supports <a href="https://salif.github.io/linkita/en/extra-frontmatter/">more extra variables, listed here</a>.</p>
-<h3 id="pages-and-posts">Pages and Posts</h3>
-<h4 id="home-page">Home page</h4>
-<p>Create a <code>content/_index.md</code> file and set <code>extra.profile</code> to your username:</p>
-<pre data-lang="toml" data-name="content/_index.md" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="content/_index.md"><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span><span style="color:#bf616a;">title </span><span>= &quot;&quot;
-</span><span style="color:#bf616a;">description </span><span>= &quot;&quot;
-</span><span style="color:#bf616a;">sort_by </span><span>= &quot;</span><span style="color:#a3be8c;">date</span><span>&quot;
-</span><span style="color:#bf616a;">paginate_by </span><span>= </span><span style="color:#d08770;">4
-</span><span>[extra]
-</span><span style="color:#bf616a;">profile </span><span>= &quot;</span><span style="color:#a3be8c;">your_username</span><span>&quot;
-</span><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span></code></pre>
-<p>Do it for each language in your blog.
-For French, the file name is <code>content/_index.fr.md</code>.</p>
-<p>See <a href="https://rww1990.github.io/my_blog/article/#profiles">Profiles</a> for more.</p>
-<h4 id="posts">Posts</h4>
-<p>In the <code>content</code> directory, create a subdirectory named <code>blog</code> or another name of your choice.</p>
-<p>Create a <code>content/blog/_index.md</code> file:</p>
-<pre data-lang="toml" data-name="content/blog/_index.md" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="content/blog/_index.md"><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span><span style="color:#bf616a;">title </span><span>= &quot;</span><span style="color:#a3be8c;">Archive</span><span>&quot;
-</span><span style="color:#bf616a;">description </span><span>= &quot;&quot;
-</span><span style="color:#bf616a;">template </span><span>= &quot;</span><span style="color:#a3be8c;">archive.html</span><span>&quot;
-</span><span style="color:#bf616a;">transparent </span><span>= </span><span style="color:#d08770;">true
-</span><span>[extra]
-</span><span style="color:#bf616a;">date_format </span><span>= &quot;</span><span style="color:#a3be8c;">%m-%d</span><span>&quot;
-</span><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span></code></pre>
-<p>Create a <code>content/blog/hello.md</code> file:</p>
-<pre data-lang="md" data-name="content/blog/hello.md" style="background-color:#2b303b;color:#c0c5ce;" class="language-md "><code class="language-md" data-lang="md" data-name="content/blog/hello.md"><span>+++
-</span><span>title = &quot;Title&quot;
-</span><span>date = 2025-12-30
-</span><span>+++
-</span><span>
-</span><span>Summary </span><span style="color:#65737e;">&lt;!-- more --&gt;
-</span><span>
-</span><span style="color:#8fa1b3;">## Hello, world!
-</span></code></pre>
-<h4 id="pages">Pages</h4>
-<p>The default page template <code>page.html</code> is for blog posts.
-For pages that are not blog posts you can use the <code>pages.html</code> template.</p>
-<p>In the <code>content</code> directory, create a subdirectory named <code>pages</code> and
-create a <code>content/pages/_index.md</code> file:</p>
-<pre data-lang="toml" data-name="content/pages/_index.md" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="content/pages/_index.md"><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span><span style="color:#bf616a;">render </span><span>= </span><span style="color:#d08770;">false
-</span><span style="color:#bf616a;">page_template </span><span>= &quot;</span><span style="color:#a3be8c;">pages.html</span><span>&quot;
-</span><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span></code></pre>
-<p>Create a <code>content/pages/about.md</code> file:</p>
-<pre data-lang="md" data-name="content/pages/about.md" style="background-color:#2b303b;color:#c0c5ce;" class="language-md "><code class="language-md" data-lang="md" data-name="content/pages/about.md"><span>+++
-</span><span>title = &quot;About me&quot;
-</span><span>description = &quot;&quot;
-</span><span>path = &quot;about&quot;
-</span><span>+++
-</span><span>
-</span><span style="color:#8fa1b3;">## Hello, world!
-</span></code></pre>
-<p>If you want, you can also create <a href="https://salif.github.io/linkita/en/shortcodes/#projects">a page for your projects</a>.</p>
-<h3 id="setting-page-authors">Setting page authors</h3>
-<p>Choose one of the following options or skip if you don't know what you're doing:</p>
-<h4 id="option-a-using-page-authors-and-config-author">Option A: Using <code>page.authors</code> and <code>config.author</code></h4>
-<p>The default author for posts is set using the <code>author</code> variable in the <code>config.toml</code> file.</p>
-<p>You don't need to set <code>authors</code> in the front matter if the default author is the only author of the post. Otherwise, set <code>authors</code>:</p>
-<pre data-lang="toml" data-name="frontmatter" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="frontmatter"><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span><span style="color:#bf616a;">authors </span><span>= [&quot;</span><span style="color:#a3be8c;">author_username</span><span>&quot;]
-</span><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span></code></pre>
-<h4 id="option-b-using-taxonomies">Option B: Using Taxonomies</h4>
-<p>Useful if the blog has a team of several authors.
-If you choose this option you should set taxonomies in each post.</p>
-<pre data-lang="toml" data-name="frontmatter" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="frontmatter"><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span><span>[taxonomies]
-</span><span style="color:#bf616a;">authors </span><span>= [&quot;</span><span style="color:#a3be8c;">author_username</span><span>&quot;, &quot;</span><span style="color:#a3be8c;">author2_username</span><span>&quot;]
-</span><span style="background-color:#bf616a;color:#2b303b;">+++</span><span>
-</span></code></pre>
-<h3 id="inject-support">Inject support</h3>
-<p>You can easily use inject to add new features to your side without modifying the theme itself.</p>
-<p>To use inject, you need to add some HTML files to the <code>templates/injects</code> directory.</p>
-<p>The available inject points are: <code>head.html</code>, <code>head_end.html</code>, <code>header_nav.html</code>,
-<code>body_start.html</code>, <code>body_end.html</code>, <code>page_start.html</code>, <code>page_end.html</code>, <code>footer.html</code>.</p>
-<p>For example, you can add JavaScript files and CSS stylesheets in the <code>templates/injects/head_end.html</code> file.</p>
-<h3 id="keyboard-shortcuts">Keyboard shortcuts</h3>
-<table><thead><tr><th>Action</th><th>Shortcut</th></tr></thead><tbody>
-<tr><td>Home</td><td><kbd>Alt</kbd>+<kbd>!</kbd></td></tr>
-<tr><td>Search</td><td><kbd>Alt</kbd>+<kbd>/</kbd></td></tr>
-<tr><td>Toggle menu</td><td><kbd>Alt</kbd>+<kbd>+</kbd></td></tr>
-<tr><td>Toggle dark mode</td><td><kbd>Alt</kbd>+<kbd>$</kbd></td></tr>
-<tr><td>Go to prev page</td><td><kbd>Alt</kbd>+<kbd>,</kbd></td></tr>
-<tr><td>Go to next page</td><td><kbd>Alt</kbd>+<kbd>.</kbd></td></tr>
-<tr><td>Table of contents</td><td><kbd>Alt</kbd>+<kbd>=</kbd></td></tr>
-<tr><td>Skip to footer</td><td><kbd>Alt</kbd>+<kbd>_</kbd></td></tr>
-</tbody></table>
-<h2 id="configuring">Configuring</h2>
-<p>Copy and paste the examples into your <code>config.toml</code> file
-and comment out the variables you don't use instead of setting empty values.
-All variables are optional.</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span style="color:#65737e;"># The URL the site will be built for.
-</span><span style="color:#bf616a;">base_url </span><span>= &quot;</span><span style="color:#a3be8c;">https://example.com</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># The site theme to use.
-</span><span style="color:#bf616a;">theme </span><span>= &quot;</span><span style="color:#a3be8c;">linkita</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># The default language.
-</span><span style="color:#65737e;"># &quot;en&quot; is for English.
-</span><span style="color:#bf616a;">default_language </span><span>= &quot;</span><span style="color:#a3be8c;">en</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># The default author for pages.
-</span><span style="color:#65737e;"># See &quot;extra.profiles&quot;.
-</span><span style="color:#bf616a;">author </span><span>= &quot;</span><span style="color:#a3be8c;">your_username</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># The site title.
-</span><span style="color:#65737e;"># Will be in all page titles.
-</span><span style="color:#bf616a;">title </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># The site description.
-</span><span style="color:#65737e;"># Used in feeds by default.
-</span><span style="color:#bf616a;">description </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># Automatically generate a feed.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">generate_feeds </span><span>= </span><span style="color:#d08770;">true
-</span><span>
-</span><span style="color:#65737e;"># The filenames to use for the feeds.
-</span><span style="color:#65737e;"># e.g. [&quot;rss.xml&quot;]
-</span><span style="color:#bf616a;">feed_filenames </span><span>= [&quot;</span><span style="color:#a3be8c;">atom.xml</span><span>&quot;]
-</span><span>
-</span><span style="color:#65737e;"># Build a search index from the pages and section content
-</span><span style="color:#65737e;"># for &quot;default_language&quot;.
-</span><span style="color:#65737e;"># build_search_index = true
-</span></code></pre>
-<p>Zola has built-in support for taxonomies.
-Linkita has special support for taxonomies named <code>tags</code>, <code>categories</code>, and <code>authors</code>.</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span>[[taxonomies]]
-</span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">categories</span><span>&quot;
-</span><span style="color:#bf616a;">feed </span><span>= </span><span style="color:#d08770;">true
-</span><span style="color:#bf616a;">paginate_by </span><span>= </span><span style="color:#d08770;">4
-</span><span>
-</span><span>[[taxonomies]]
-</span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">tags</span><span>&quot;
-</span><span style="color:#bf616a;">feed </span><span>= </span><span style="color:#d08770;">true
-</span><span style="color:#bf616a;">paginate_by </span><span>= </span><span style="color:#d08770;">4
-</span><span>
-</span><span>[[taxonomies]]
-</span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">authors</span><span>&quot;
-</span><span style="color:#bf616a;">feed </span><span>= </span><span style="color:#d08770;">true
-</span><span style="color:#bf616a;">paginate_by </span><span>= </span><span style="color:#d08770;">4
-</span></code></pre>
-<p>You can add more languages by replacing <code>fr</code> from the following example with the language code:</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span>[languages.fr]
-</span><span style="color:#bf616a;">title </span><span>= &quot;</span><span style="color:#a3be8c;">Site title in French</span><span>&quot;
-</span><span style="color:#bf616a;">description </span><span>= &quot;</span><span style="color:#a3be8c;">Site description in French</span><span>&quot;
-</span><span style="color:#bf616a;">generate_feeds </span><span>= </span><span style="color:#d08770;">true
-</span><span style="color:#bf616a;">feed_filenames </span><span>= [&quot;</span><span style="color:#a3be8c;">atom.xml</span><span>&quot;] </span><span style="color:#65737e;"># or [&quot;rss.xml&quot;]
-</span><span style="color:#bf616a;">build_search_index </span><span>= </span><span style="color:#d08770;">true
-</span><span style="color:#bf616a;">taxonomies </span><span>= [
-</span><span>    { </span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">tags</span><span>&quot;, </span><span style="color:#bf616a;">feed </span><span>= </span><span style="color:#d08770;">true</span><span>, </span><span style="color:#bf616a;">paginate_by </span><span>= </span><span style="color:#d08770;">4 </span><span>}
-</span><span>]
-</span></code></pre>
-<p>By default, taxonomy pages are sorted in descending order by the number of posts.
-You can customize this behavior using the <code>extra.taxonomy_sorting</code> variable:</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span>[extra.taxonomy_sorting]
-</span><span style="color:#65737e;"># &quot;ascending_frequency&quot;, &quot;descending_frequency&quot; or &quot;name&quot;
-</span><span style="color:#65737e;"># Default value: &quot;descending_frequency&quot;
-</span><span style="color:#bf616a;">categories </span><span>= &quot;</span><span style="color:#a3be8c;">name</span><span>&quot;
-</span><span style="color:#bf616a;">tags </span><span>= &quot;</span><span style="color:#a3be8c;">descending_frequency</span><span>&quot;
-</span><span style="color:#bf616a;">authors </span><span>= &quot;</span><span style="color:#a3be8c;">name</span><span>&quot;
-</span></code></pre>
-<h3 id="general-config">General config</h3>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span>[extra]
-</span><span style="color:#65737e;"># Enable KaTeX math formula support globally.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">math </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># Enable Mermaid support globally.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">mermaid </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># Enable comments globally.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">comment </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># Title separator.
-</span><span style="color:#bf616a;">title_separator </span><span>= &quot;</span><span style="color:#a3be8c;"> | </span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># The top menu.
-</span><span style="color:#65737e;"># See &quot;extra.menus&quot;.
-</span><span style="color:#bf616a;">header_menu_name </span><span>= &quot;</span><span style="color:#a3be8c;">menu_name</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># If you disable default favicons, you can use
-</span><span style="color:#65737e;"># the inject support to set your own favicons.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">disable_default_favicon </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># If you want to implement the JS code
-</span><span style="color:#65737e;"># yourself, set to true and use the inject support.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">disable_javascript </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">use_cdn </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># Use relative urls.
-</span><span style="color:#65737e;"># It doesn&#39;t apply for content yet.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">relative_urls </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># If you want to view the site without a webserver
-</span><span style="color:#65737e;"># set this and &quot;relative_urls&quot; to true.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">urls_to_index_html </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># Prioritize summary over description.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">page_summary_on_paginator </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># Reverse the order of prev and next post links.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">invert_page_navigation </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># You can reorder the strings, remove them, replace them.
-</span><span style="color:#65737e;"># For example, you can replace &quot;site_title&quot; with &quot;home_button&quot;.
-</span><span style="color:#65737e;"># Default value: [&quot;site_title&quot;, &quot;theme_button&quot;, &quot;search_button&quot;, &quot;translations_button&quot;]
-</span><span style="color:#65737e;"># header_buttons = []
-</span><span>
-</span><span style="color:#65737e;"># Valid &quot;when&quot; values:
-</span><span style="color:#65737e;">#  &quot;date&quot;, &quot;date_updated&quot;, &quot;reading_time&quot;, &quot;word_count&quot;, &quot;authors&quot;, &quot;tags&quot;, &quot;&quot;.
-</span><span style="color:#65737e;"># The &quot;prepend&quot; and &quot;append&quot; are used when the value of &quot;when&quot; is defined for the page.
-</span><span style="color:#65737e;"># e.g. [{when=&quot;&quot;, prepend=&quot;Page Info: &quot;},{when=&quot;date&quot;,prepend=&quot;Published on &quot;},{when=&quot;authors&quot;,prepend=&quot;By &quot;}]
-</span><span style="color:#65737e;"># page_info = [{ when=&quot;date&quot; }, { when=&quot;date_updated&quot;, prepend=&quot;(&quot;, append=&quot;)&quot; }, { when=&quot;reading_time&quot; }]
-</span><span style="color:#65737e;"># page_info_on_paginator = [{ when=&quot;date&quot; }, { when=&quot;reading_time&quot; }]
-</span><span>
-</span><span style="color:#65737e;"># Enable table of contents on all pages.
-</span><span style="color:#65737e;"># If not set, toc is enabled only on posts.
-</span><span style="color:#65737e;"># If set to false, toc is disabled on all pages.
-</span><span style="color:#65737e;"># Type: boolean or object
-</span><span style="color:#65737e;"># toc = true
-</span></code></pre>
-<h3 id="style-config">Style config</h3>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span>[extra.style]
-</span><span style="color:#65737e;"># The custom background color.
-</span><span style="color:#bf616a;">bg_color </span><span>= &quot;</span><span style="color:#a3be8c;">#f4f4f5</span><span>&quot;
-</span><span style="color:#65737e;"># The custom background color in dark mode.
-</span><span style="color:#bf616a;">bg_dark_color </span><span>= &quot;</span><span style="color:#a3be8c;">#18181b</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># Enable header blur.
-</span><span style="color:#bf616a;">header_blur </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># The custom header color, only available
-</span><span style="color:#65737e;"># when &quot;header_blur&quot; is false.
-</span><span style="color:#bf616a;">header_color </span><span>= &quot;</span><span style="color:#a3be8c;">#e4e4e7</span><span>&quot;
-</span><span style="color:#65737e;"># The custom header color in dark mode, only available
-</span><span style="color:#65737e;"># when &quot;header_blur&quot; is false.
-</span><span style="color:#bf616a;">header_dark_color </span><span>= &quot;</span><span style="color:#a3be8c;">#27272a</span><span>&quot;
-</span></code></pre>
-<h3 id="menus">Menus</h3>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span>[extra.menus]
-</span><span style="color:#bf616a;">menu_name </span><span>= [
-</span><span>  { </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/blog/</span><span>&quot;, </span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">Archive</span><span>&quot; },
-</span><span>  { </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/categories/</span><span>&quot;, </span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">Categories</span><span>&quot; },
-</span><span>  { </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/tags/</span><span>&quot;, </span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">Tags</span><span>&quot; },
-</span><span>  { </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/about/</span><span>&quot;, </span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">About</span><span>&quot; },
-</span><span>]
-</span><span>
-</span><span style="color:#65737e;"># Example multilingual menu.
-</span><span style="color:#bf616a;">multilingual_menu_name </span><span>= [
-</span><span>  { </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/about/</span><span>&quot;, </span><span style="color:#bf616a;">names </span><span>= { </span><span style="color:#bf616a;">en </span><span>= &quot;</span><span style="color:#a3be8c;">About</span><span>&quot;, </span><span style="color:#bf616a;">fr </span><span>= &quot;</span><span style="color:#a3be8c;">About in French</span><span>&quot; } },
-</span><span>  { </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/projects/</span><span>&quot;, </span><span style="color:#bf616a;">names </span><span>= { </span><span style="color:#bf616a;">en </span><span>= &quot;</span><span style="color:#a3be8c;">Projects</span><span>&quot;, </span><span style="color:#bf616a;">fr </span><span>= &quot;</span><span style="color:#a3be8c;">Projects in French</span><span>&quot; } },
-</span><span>  { </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/blog/</span><span>&quot;, </span><span style="color:#bf616a;">names </span><span>= { </span><span style="color:#bf616a;">en </span><span>= &quot;</span><span style="color:#a3be8c;">Archive</span><span>&quot;, </span><span style="color:#bf616a;">fr </span><span>= &quot;</span><span style="color:#a3be8c;">Archive in French</span><span>&quot; } },
-</span><span>  { </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/categories/</span><span>&quot;, </span><span style="color:#bf616a;">names </span><span>= { </span><span style="color:#bf616a;">en </span><span>= &quot;</span><span style="color:#a3be8c;">Categories</span><span>&quot;, </span><span style="color:#bf616a;">fr </span><span>= &quot;</span><span style="color:#a3be8c;">Categories in French</span><span>&quot; } },
-</span><span>  { </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/tags/</span><span>&quot;, </span><span style="color:#bf616a;">names </span><span>= { </span><span style="color:#bf616a;">en </span><span>= &quot;</span><span style="color:#a3be8c;">Tags</span><span>&quot;, </span><span style="color:#bf616a;">fr </span><span>= &quot;</span><span style="color:#a3be8c;">Tags in French</span><span>&quot; } },
-</span><span>  { </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/authors/</span><span>&quot;, </span><span style="color:#bf616a;">names </span><span>= { </span><span style="color:#bf616a;">en </span><span>= &quot;</span><span style="color:#a3be8c;">Authors</span><span>&quot;, </span><span style="color:#bf616a;">fr </span><span>= &quot;</span><span style="color:#a3be8c;">Authors in French</span><span>&quot; } },
-</span><span>]
-</span></code></pre>
-<p>To use a menu, set <code>extra.header_menu_name</code>.</p>
-<p><code>$BASE_URL</code> in <code>url</code> will be automatically replaced with the language specific base url.
-You can use <code>names_i18n</code> instead of <code>names</code>, see the <code>static/i18n.json</code> file,
-set <code>names_i18n</code> to a <code>common_</code> key.</p>
-<p>You can use <a href="https://www.getzola.org/documentation/content/linking/#internal-links">Internal links</a> instead of <code>$BASE_URL</code>.</p>
-<h3 id="profiles">Profiles</h3>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span style="color:#65737e;"># Replace &quot;your_username&quot; with your username.
-</span><span>[extra.profiles.your_username]
-</span><span>
-</span><span style="color:#65737e;"># The URL of avatar.
-</span><span style="color:#65737e;"># e.g. &quot;icons/github.svg&quot;
-</span><span style="color:#bf616a;">avatar_url </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># A description of what is in the avatar.
-</span><span style="color:#bf616a;">avatar_alt </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># Invert avatar color in dark mode.
-</span><span style="color:#65737e;"># Default value: false
-</span><span style="color:#bf616a;">avatar_invert </span><span>= </span><span style="color:#d08770;">false
-</span><span>
-</span><span style="color:#65737e;"># Profile name.
-</span><span style="color:#65737e;"># Default value: the username
-</span><span style="color:#bf616a;">name </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># Profile bio.
-</span><span style="color:#65737e;"># Supports Markdown.
-</span><span style="color:#bf616a;">bio </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># Social icons.
-</span><span style="color:#65737e;"># &quot;name&quot; should be the file name of &quot;static/icons/*.svg&quot; or
-</span><span style="color:#65737e;"># the icon name of https://simpleicons.org/
-</span><span style="color:#65737e;"># &quot;url&quot; supports &quot;$BASE_URL&quot;.
-</span><span style="color:#65737e;"># Other variables: &quot;urls&quot;, &quot;title&quot;, &quot;titles&quot;.
-</span><span style="color:#bf616a;">social </span><span>= [
-</span><span>    { </span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">bluesky</span><span>&quot;, </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">https://bsky.app/profile/username</span><span>&quot; },
-</span><span>    { </span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">github</span><span>&quot;, </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">https://github.com/username</span><span>&quot; },
-</span><span>    { </span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">email</span><span>&quot;, </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">mailto:example@example.com</span><span>&quot; },
-</span><span>    { </span><span style="color:#bf616a;">name </span><span>= &quot;</span><span style="color:#a3be8c;">rss</span><span>&quot;, </span><span style="color:#bf616a;">url </span><span>= &quot;</span><span style="color:#a3be8c;">$BASE_URL/atom.xml</span><span>&quot; },
-</span><span>]
-</span></code></pre>
-<h3 id="profile-translations">Profile translations</h3>
-<p>Skip if your site is not multilingual.</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span style="color:#65737e;"># For French. Replace &quot;your_username&quot; with your username.
-</span><span>[extra.profiles.your_username.languages.fr]
-</span><span>
-</span><span style="color:#65737e;"># A description of what is in the avatar.
-</span><span style="color:#bf616a;">avatar_alt </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># Profile name.
-</span><span style="color:#bf616a;">name </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># Profile bio.
-</span><span style="color:#65737e;"># Supports Markdown.
-</span><span style="color:#bf616a;">bio </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># Social icons.
-</span><span style="color:#bf616a;">social </span><span>= []
-</span></code></pre>
-<h3 id="open-graph-for-profiles">Open Graph for profiles</h3>
-<p>See <a href="https://ogp.me/">the Open Graph protocol</a>.</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span style="color:#65737e;"># Replace &quot;your_username&quot; with your username.
-</span><span>[extra.profiles.your_username.open_graph]
-</span><span>
-</span><span style="color:#65737e;"># The URL of social image.
-</span><span style="color:#bf616a;">image </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># A description of what is in the social image.
-</span><span style="color:#65737e;"># Default value: &quot;&quot;
-</span><span style="color:#bf616a;">image_alt </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># Your first name. No default value.
-</span><span style="color:#bf616a;">first_name </span><span>= &quot;&quot;
-</span><span style="color:#65737e;"># Your last name. No default value.
-</span><span style="color:#bf616a;">last_name </span><span>= &quot;&quot;
-</span><span style="color:#65737e;"># Your username. No default value.
-</span><span style="color:#bf616a;">username </span><span>= &quot;&quot;
-</span><span style="color:#65737e;"># e.g. &quot;female&quot; or &quot;male&quot;. No default value.
-</span><span style="color:#bf616a;">gender </span><span>= &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># fb_app_id = &quot;Your fb app ID&quot;
-</span><span style="color:#65737e;"># fb_admins = [&quot;YOUR_USER_ID&quot;]
-</span><span>
-</span><span style="color:#65737e;"># Set if you have a Fediverse account.
-</span><span style="color:#65737e;">#  handle - Your Fediverse handle.
-</span><span style="color:#65737e;">#  domain - Your Fediverse instance.
-</span><span style="color:#65737e;">#  url - Your Fediverse account URL. Optional.
-</span><span style="color:#65737e;"># Example for @me@mastodon.social:
-</span><span style="color:#65737e;"># { handle = &quot;me&quot;, domain = &quot;mastodon.social&quot; }
-</span><span style="color:#bf616a;">fediverse_creator </span><span>= { </span><span style="color:#bf616a;">handle </span><span>= &quot;&quot;, </span><span style="color:#bf616a;">domain </span><span>= &quot;&quot; }
-</span></code></pre>
-<p><code>image</code> and <code>image_alt</code> of the default author's profile will be used
-as a fallback open graph image for all pages.</p>
-<h4 id="open-graph-translations">Open Graph translations</h4>
-<p>Skip if your site is not multilingual.</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span style="color:#65737e;"># For French. Replace &quot;your_username&quot; with your username.
-</span><span>[extra.profiles.your_username.open_graph.languages.fr]
-</span><span style="color:#65737e;"># A description of what is in the social image.
-</span><span style="color:#bf616a;">image_alt </span><span>= &quot;&quot;
-</span></code></pre>
-<h3 id="the-page-footer">The page footer</h3>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span>[extra.footer]
-</span><span style="color:#65737e;"># Replace with the correct year.
-</span><span style="color:#65737e;"># Default value: the current year
-</span><span style="color:#bf616a;">since </span><span>= </span><span style="color:#d08770;">2025
-</span><span>
-</span><span style="color:#65737e;"># Replace with the URL of the license you want.
-</span><span style="color:#65737e;"># No default value. Supports &quot;$BASE_URL&quot;.
-</span><span style="color:#bf616a;">license_url </span><span>= &quot;</span><span style="color:#a3be8c;">https://creativecommons.org/licenses/by-sa/4.0/deed</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># Replace &quot;Your Name&quot; with your name and &quot;CC BY-SA 4.0&quot; with the name of the license you want.
-</span><span style="color:#bf616a;">copyright </span><span>= &quot;</span><span style="color:#a3be8c;">&amp;copy; $YEAR Your Name &amp;vert; [CC BY-SA 4.0]($LICENSE_URL)</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># Not used yet.
-</span><span style="color:#65737e;"># Supports &quot;$BASE_URL&quot;.
-</span><span style="color:#65737e;"># privacy_policy_url = &quot;$BASE_URL/privacy-policy/&quot;
-</span><span>
-</span><span style="color:#65737e;"># Not used yet.
-</span><span style="color:#65737e;"># Supports &quot;$BASE_URL&quot;.
-</span><span style="color:#65737e;"># terms_of_service_url = &quot;$BASE_URL/terms-of-service/&quot;
-</span><span>
-</span><span style="color:#65737e;"># Not used yet.
-</span><span style="color:#65737e;"># Supports &quot;$BASE_URL&quot;.
-</span><span style="color:#65737e;"># search_page_url = &quot;$BASE_URL/search/&quot;
-</span></code></pre>
-<p>The <code>copyright</code> variable supports Markdown, <code>$BASE_URL</code>, <code>$YEAR</code> (uses <code>since</code>), and <code>$LICENSE_URL</code> (uses <code>license_url</code>).</p>
-<h3 id="language-specific-options">Language specific options</h3>
-<p>For date format, see <a href="https://docs.rs/chrono/0.4/chrono/format/strftime/index.html">chrono docs</a>.</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span style="color:#65737e;"># For English
-</span><span>[extra.languages.en]
-</span><span>
-</span><span style="color:#65737e;"># No default value.
-</span><span style="color:#bf616a;">locale </span><span>= &quot;</span><span style="color:#a3be8c;">en_US</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># Default value: &quot;%F&quot;
-</span><span style="color:#bf616a;">date_format </span><span>= &quot;</span><span style="color:#a3be8c;">%x</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># Default value: extra.page_info
-</span><span style="color:#65737e;"># page_info = []
-</span><span>
-</span><span style="color:#65737e;"># Default value: extra.page_info_on_paginator
-</span><span style="color:#65737e;"># page_info_on_paginator = []
-</span><span>
-</span><span style="color:#65737e;"># Default value: extra.header_menu_name
-</span><span style="color:#65737e;"># header_menu_name = &quot;menu_name&quot;
-</span><span>
-</span><span style="color:#65737e;"># Default value: extra.header_buttons
-</span><span style="color:#65737e;"># header_buttons = []
-</span><span>
-</span><span style="color:#65737e;"># To set a different &quot;lang&quot; attribute of the document.
-</span><span style="color:#65737e;"># You can set IETF tag for artificial languages, e.g. &quot;art-x-code&quot;.
-</span><span style="color:#65737e;"># language_code = &quot;&quot;
-</span><span>
-</span><span style="color:#65737e;"># To use a different interface language, e.g. English.
-</span><span style="color:#65737e;"># i18n_code = &quot;en&quot;
-</span><span>
-</span><span style="color:#65737e;"># Set a description for taxonomy pages.
-</span><span>[extra.languages.en.taxonomy_descriptions]
-</span><span style="color:#bf616a;">categories </span><span>= &quot;</span><span style="color:#a3be8c;">A map of all categories on this site. Start exploring!</span><span>&quot;
-</span><span style="color:#bf616a;">tags </span><span>= &quot;</span><span style="color:#a3be8c;">A map of all tags on this site. Start exploring!</span><span>&quot;
-</span><span style="color:#bf616a;">authors </span><span>= &quot;</span><span style="color:#a3be8c;">A map of all authors on this site. Start exploring!</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># Set a description for term pages.
-</span><span style="color:#65737e;"># &quot;$NAME&quot; will be automatically replaced.
-</span><span>[extra.languages.en.term_descriptions]
-</span><span style="color:#bf616a;">categories </span><span>= &quot;</span><span style="color:#a3be8c;">Browse articles related to $NAME. Start exploring!</span><span>&quot;
-</span><span style="color:#bf616a;">tags </span><span>= &quot;</span><span style="color:#a3be8c;">Browse articles related to $NAME. Start exploring!</span><span>&quot;
-</span><span style="color:#bf616a;">authors </span><span>= &quot;</span><span style="color:#a3be8c;">Browse articles written by $NAME. Start exploring!</span><span>&quot;
-</span></code></pre>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span style="color:#65737e;"># For French
-</span><span>[extra.languages.fr]
-</span><span style="color:#bf616a;">locale </span><span>= &quot;</span><span style="color:#a3be8c;">fr_FR</span><span>&quot;
-</span><span style="color:#bf616a;">date_format </span><span>= &quot;</span><span style="color:#a3be8c;">%x</span><span>&quot;
-</span></code></pre>
-<h3 id="web-analytics">Web analytics</h3>
-<h4 id="goatcounter">GoatCounter</h4>
-<p>Set only if you use <a href="https://www.goatcounter.com/">GoatCounter</a>.</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span>[extra.goatcounter]
-</span><span style="color:#65737e;"># No default value.
-</span><span style="color:#bf616a;">endpoint </span><span>= &quot;</span><span style="color:#a3be8c;">https://MYCODE.goatcounter.com/count</span><span>&quot;
-</span><span>
-</span><span style="color:#65737e;"># To enable tracking pixel, set to an empty string.
-</span><span style="color:#65737e;"># If your &quot;base_url&quot; includes a subpath, set to
-</span><span style="color:#65737e;"># the subpath without a trailing slash.
-</span><span style="color:#65737e;"># noscript_prefix = &quot;&quot;
-</span></code></pre>
-<h4 id="vercel-analytics">Vercel Analytics</h4>
-<p>Set only if you use <a href="https://vercel.com/docs/analytics">Vercel Web Analytics</a>.</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span>[extra.vercel_analytics]
-</span><span style="color:#65737e;"># No default value.
-</span><span style="color:#bf616a;">src </span><span>= &quot;</span><span style="color:#a3be8c;">/_vercel/insights/script.js</span><span>&quot;
-</span></code></pre>
-<h4 id="prevent-tracking-own-pageviews">Prevent tracking own pageviews</h4>
-<p>Open a page of your site, adding <code>#disable-analytics</code> to the page address.
-Do this once for each browser and device.
-For example, open <a href="http://127.0.0.1:1111/#disable-analytics">http://127.0.0.1:1111/#disable-analytics</a>.</p>
-<h3 id="comments">Comments</h3>
-<p>See <a href="https://giscus.app/">giscus.app</a>.
-Only available when <code>extra.comment</code> in the front matter or <code>extra.comment</code> in the config is set to true.</p>
-<pre data-lang="toml" data-name="config.toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml" data-name="config.toml"><span>[extra.giscus]
-</span><span style="color:#65737e;"># No default value.
-</span><span style="color:#bf616a;">repo </span><span>= &quot;&quot;
-</span><span style="color:#65737e;"># No default value.
-</span><span style="color:#bf616a;">repo_id </span><span>= &quot;&quot;
-</span><span style="color:#65737e;"># No default value.
-</span><span style="color:#bf616a;">category </span><span>= &quot;&quot;
-</span><span style="color:#65737e;"># No default value.
-</span><span style="color:#bf616a;">category_id </span><span>= &quot;&quot;
-</span><span style="color:#65737e;"># Default value: &quot;pathname&quot;
-</span><span style="color:#bf616a;">mapping </span><span>= &quot;</span><span style="color:#a3be8c;">pathname</span><span>&quot;
-</span><span style="color:#65737e;"># Default value: 1
-</span><span style="color:#bf616a;">strict </span><span>= </span><span style="color:#d08770;">1
-</span><span style="color:#65737e;"># Default value: 0
-</span><span style="color:#bf616a;">reactions_enabled </span><span>= </span><span style="color:#d08770;">0
-</span><span style="color:#65737e;"># Default value: 0
-</span><span style="color:#bf616a;">emit_metadata </span><span>= </span><span style="color:#d08770;">0
-</span><span style="color:#65737e;"># Default value: &quot;top&quot;
-</span><span style="color:#bf616a;">input_position </span><span>= &quot;</span><span style="color:#a3be8c;">top</span><span>&quot;
-</span><span style="color:#65737e;"># Default value: &quot;light&quot;
-</span><span style="color:#bf616a;">theme </span><span>= &quot;</span><span style="color:#a3be8c;">light</span><span>&quot;
-</span><span style="color:#65737e;"># Default value: &quot;en&quot;
-</span><span style="color:#bf616a;">lang </span><span>= &quot;</span><span style="color:#a3be8c;">en</span><span>&quot;
-</span><span style="color:#65737e;"># Default value: &quot;lazy&quot;
-</span><span style="color:#bf616a;">loading </span><span>= &quot;</span><span style="color:#a3be8c;">lazy</span><span>&quot;
-</span></code></pre>
-<h2 id="license">License</h2>
-<p>See the <a href="https://codeberg.org/salif/linkita/src/branch/linkita/LICENSE">MIT License</a> file.</p>
-<h2 id="contributing">Contributing</h2>
-<p>Pull requests are welcome on <a href="https://codeberg.org/salif/linkita">Codeberg</a> and <a href="https://github.com/salif/linkita">Github</a>.</p>
-<h2 id="sites-using-linkita">Sites using Linkita</h2>
+<hr />
+<h2 id="vor-und-nachteile-der-methode">Vor-  und Nachteile der Methode</h2>
+<p><strong>Vorteile:</strong></p>
 <ul>
-<li><a href="https://github.com/salif/zola-themes-collection">Zola Themes Collection</a></li>
-<li><a href="https://github.com/salif/personal-web-page">salif.eu</a>: Personal website</li>
-<li><a href="https://github.com/Rratic/rratic.github.io">Rratic's blog</a>: Personal website</li>
+<li>Reduziert Missverständnisse zwischen Teams</li>
+<li>Erhöht Wiederverwendbarkeit von Komponenten</li>
+<li>Verbessert Systemstabilität und Skalierbarkeit</li>
 </ul>
-<p>If your blog uses Linkita and is open source, feel free to create a pull request to add it to this list.</p>
+<p><strong>Nachteile:</strong></p>
+<ul>
+<li>Fokus nur auf „Verbindungen“, nicht auf interne Logik</li>
+<li>Hoher Aufwand bei dynamischen Systemlandschaften</li>
+<li>Gefahr der "Modellierungsüberfrachtung" bei übertriebener Formalisierung</li>
+</ul>
+<hr />
+<h2 id="schnittstellenanalyse-vorlage">Schnittstellenanalyse Vorlage</h2>
+<p>Hier ein einfaches Template zur Dokumentation:</p>
+<table><thead><tr><th>Aspekt</th><th>Beschreibung</th></tr></thead><tbody>
+<tr><td>Schnittstelle</td><td>Name oder Nummer</td></tr>
+<tr><td>Beteiligte</td><td>Systeme / Rollen / Organisationseinheiten</td></tr>
+<tr><td>Art der Daten</td><td>Struktur, Umfang, Formate</td></tr>
+<tr><td>Austauschformat</td><td>z. B. XML, CSV, API, manuell</td></tr>
+<tr><td>Trigger</td><td>Ereignis oder Zeitpunkt des Austauschs</td></tr>
+<tr><td>Frequenz</td><td>Echtzeit / Batch / on Demand</td></tr>
+<tr><td>Verantwortlicher</td><td>Fachlich / Technisch</td></tr>
+<tr><td>Risiken</td><td>Mögliche Störungen, Abhängigkeiten, Latenzen</td></tr>
+</tbody></table>
+<blockquote>
+<p>Optional: Als Excel/Confluence-Tabelle zur kollaborativen Bearbeitung nutzen.</p>
+</blockquote>
+<hr />
+<h2 id="fazit-schnittstellen-als-erfolgsfaktor">Fazit: Schnittstellen als Erfolgsfaktor</h2>
+<p>Schnittstellenanalyse ist kein "technischer Nebenaspekt", sondern ein zentraler Hebel für Qualität, Effizienz und Skalierbarkeit von Systemen und Prozessen. Sie verbindet technisches Verständnis mit betrieblicher Weitsicht. Wer sie ignoriert, riskiert teure Integrationsprobleme. Wer sie ernst nimmt, schafft belastbare Strukturen – und Zukunftsfähigkeit.</p>
+<hr />
+<p><strong>Keywords integriert:</strong> schnittstellenanalyse, schnittstellen analyse, schnittstellenanalyse prozesse, schnittstellenanalyse vorlage, schnittstellenmanagement methoden, prozessschnittstellen, schnittstellenentwicklung</p>
 </section>
   <hr />
   <!-- Post Taxonomies -->
