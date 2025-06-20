@@ -4,6 +4,11 @@ description = "Schnittstellen sind ein zentrales Element der Zusammenarbeit"
 # The last updated date of the post 
 date = 2025-04-30
 updated = 2025-04-30
+
+[taxonomies]
+# categories = []
+tags = [collaboration,template,analysis]
+
 [extra]
 
 # Enable comments.
