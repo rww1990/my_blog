@@ -7,7 +7,7 @@ updated = 2025-04-30
 
 [taxonomies]
 # categories = []
-tags = [collaboration,template,analysis]
+tags = ["collaboration", "template", "analysis"]
 
 [extra]
 
