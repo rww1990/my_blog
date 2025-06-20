@@ -47,7 +47,7 @@ alt = "screenshot"
 # Schnittstellenanalyse: Definition, Methoden und Best Practices
 
 In einer zunehmend vernetzten Welt sind **Schnittstellen** der kritische Kitt zwischen Systemen, Prozessen und Organisationseinheiten. Eine saubere Schnittstellenanalyse entscheidet oft darüber, ob Systeme effizient, skalierbar und wartbar sind – oder scheitern. In diesem Artikel analysieren wir die Methode tiefgehend, zeigen typische Fehler auf, geben praxisnahe Tipps und liefern eine Vorlage für eigene Analysen.
-
+  
 ## Was ist eine Schnittstellenanalyse?
 
 Die **Schnittstellenanalyse** (engl. *Interface Analysis*) ist eine strukturierte Methode zur Untersuchung von Kommunikationspunkten zwischen Systemen, Komponenten oder Organisationseinheiten. Ziel ist es, Klarheit über Art, Umfang, Zeitpunkt und Zweck des Informationsaustauschs zu gewinnen.
