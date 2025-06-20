@@ -6,8 +6,3 @@ description = "Praktische Tools & Methoden für IT-Anforderungsanalyse, Schnitts
 
 +++
 BA-Tools bietet praxisnahes Know-how für Business Analysten, Requirements Engineers und IT-Projektleiter. Ob API-Spezifikation, Prozessschnittstellen, DevOps-Praktiken oder agile Architektur – hier finden Sie fundierte Methoden, sofort nutzbare Vorlagen und strategische Impulse für anspruchsvolle IT-Projekte.
-
-- ✅ **Anforderungsanalyse in IT-Projekten** – von Use Cases bis Backlogs  
-- ✅ **Tools & Vorlagen für Business Analyse** – sofort einsetzbar  
-- ✅ **Schnittstellenanalyse & API-Dokumentation** – verständlich & skalierbar  
-- ✅ **DevOps & agile Architekturmethoden** – Brücken zwischen Fachbereich & IT
