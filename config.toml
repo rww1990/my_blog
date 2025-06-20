@@ -1,7 +1,7 @@
 theme = "linkita"
 
 # The URL the site will be built for
-base_url = "https://ba-tools.de"
+base_url = "https://rww1990.github.io/my_blog/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
