@@ -1,7 +1,7 @@
 +++
 title = "Schnittstellenanalyse"
-slug = "schnittstellenanalyse"
 description = "Erfahren Sie, wie Schnittstellenanalyse in IT-Projekten funktioniert: Mit Beispielen, Vorlagen und Methoden."
+slug = "schnittstellenanalyse"
 # The last updated date of the post 
 date = 2025-04-30
 updated = 2025-04-30
@@ -208,3 +208,69 @@ Hier ein einfaches Template zur Dokumentation:
 ## Fazit: Schnittstellen als Erfolgsfaktor
 
 Schnittstellenanalyse ist kein "technischer Nebenaspekt", sondern ein zentraler Hebel für Qualität, Effizienz und Skalierbarkeit von Systemen und Prozessen. Sie verbindet technisches Verständnis mit betrieblicher Weitsicht. Wer sie ignoriert, riskiert teure Integrationsprobleme. Wer sie ernst nimmt, schafft belastbare Strukturen – und Zukunftsfähigkeit.
+
+## Häufige Fragen (FAQ)
+
+### Was ist das Ziel einer Schnittstellenanalyse?
+Ziel ist es, Kommunikationspunkte zwischen Systemen, Prozessen oder Organisationseinheiten zu identifizieren, zu strukturieren und zu optimieren.
+
+### Welche Arten von Schnittstellen werden analysiert?
+Benutzerschnittstellen, APIs, organisatorische Übergaben, Prozessschnittstellen, Datenschnittstellen, externe Partner-Schnittstellen und mehr.
+
+### Wann sollte man eine Schnittstellenanalyse durchführen?
+So früh wie möglich – idealerweise vor der eigentlichen System- oder Prozessmodellierung. Späte Analysen führen häufig zu kostspieligen Nacharbeiten.
+
+### Welche Methoden helfen bei der Schnittstellenanalyse?
+SIPOC, RACI, BPMN, UML/SysML, Interface Contracts sowie strukturierte Interviews und Workshops.
+
+### Was ist der Unterschied zwischen Schnittstelle und Schnittstellenanalyse?
+Die Schnittstelle ist der definierte Übergabepunkt – die Analyse ist der Prozess, um diesen zu erkennen, zu dokumentieren und zu managen.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Was ist das Ziel einer Schnittstellenanalyse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ziel ist es, Kommunikationspunkte zwischen Systemen, Prozessen oder Organisationseinheiten zu identifizieren, zu strukturieren und zu optimieren."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Welche Arten von Schnittstellen werden analysiert?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Benutzerschnittstellen, APIs, organisatorische Übergaben, Prozessschnittstellen, Datenschnittstellen, externe Partner-Schnittstellen und mehr."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wann sollte man eine Schnittstellenanalyse durchführen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "So früh wie möglich – idealerweise vor der eigentlichen System- oder Prozessmodellierung. Späte Analysen führen häufig zu kostspieligen Nacharbeiten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Welche Methoden helfen bei der Schnittstellenanalyse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SIPOC, RACI, BPMN, UML/SysML, Interface Contracts sowie strukturierte Interviews und Workshops."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was ist der Unterschied zwischen Schnittstelle und Schnittstellenanalyse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Schnittstelle ist der definierte Übergabepunkt – die Analyse ist der Prozess, um diesen zu erkennen, zu dokumentieren und zu managen."
+      }
+    }
+  ]
+}
+</script>
