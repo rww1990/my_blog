@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - collaboration</title>
-    <link rel="self" type="application/atom+xml" href="https://rww1990.github.io/my_blog/tags/collaboration/atom.xml"/>
+    <title> - devops</title>
+    <link rel="self" type="application/atom+xml" href="https://rww1990.github.io/my_blog/tags/devops/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://rww1990.github.io/my_blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2025-04-30T00:00:00+00:00</updated>
-    <id>https://rww1990.github.io/my_blog/tags/collaboration/atom.xml</id>
+    <id>https://rww1990.github.io/my_blog/tags/devops/atom.xml</id>
     <entry xml:lang="en">
         <title>Schnittstellenanalyse</title>
         <published>2025-04-30T00:00:00+00:00</published>
@@ -91,7 +91,7 @@
 &lt;p&gt;&quot;&lt;strong&gt;Prozessschnittstellen&lt;&#x2F;strong&gt;&quot; sind Übergabepunkte in betrieblichen Abläufen, z. B. zwischen:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Vertrieb und Produktion,&lt;&#x2F;li&gt;
-&lt;li&gt;HR und Payroll,&lt;&#x2F;li&gt;
+&lt;li&gt;IT und Produktmanagement,&lt;&#x2F;li&gt;
 &lt;li&gt;Einkauf und Buchhaltung.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;Typische Probleme:&lt;&#x2F;p&gt;
@@ -154,8 +154,6 @@
 &lt;hr &#x2F;&gt;
 &lt;h2 id=&quot;fazit-schnittstellen-als-erfolgsfaktor&quot;&gt;Fazit: Schnittstellen als Erfolgsfaktor&lt;&#x2F;h2&gt;
 &lt;p&gt;Schnittstellenanalyse ist kein &quot;technischer Nebenaspekt&quot;, sondern ein zentraler Hebel für Qualität, Effizienz und Skalierbarkeit von Systemen und Prozessen. Sie verbindet technisches Verständnis mit betrieblicher Weitsicht. Wer sie ignoriert, riskiert teure Integrationsprobleme. Wer sie ernst nimmt, schafft belastbare Strukturen – und Zukunftsfähigkeit.&lt;&#x2F;p&gt;
-&lt;hr &#x2F;&gt;
-&lt;p&gt;&lt;strong&gt;Keywords integriert:&lt;&#x2F;strong&gt; schnittstellenanalyse, schnittstellen analyse, schnittstellenanalyse prozesse, schnittstellenanalyse vorlage, schnittstellenmanagement methoden, prozessschnittstellen, schnittstellenentwicklung&lt;&#x2F;p&gt;
 </content>
         
     </entry>
