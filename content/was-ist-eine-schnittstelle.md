@@ -38,7 +38,7 @@ section = "_index.md"
 # Path to the cover image.
 image = "/images/schnittstelle.webp"
 # A description of the cover image.
-alt = "screenshot"
+alt = "Bunte Kreise überschneiden sich"
 
 # Width of the cover image in pixels.
 # Default value: get_image_metadata()
