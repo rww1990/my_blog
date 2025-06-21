@@ -22,11 +22,11 @@ paginate_by = 4
 highlight_code = true
 
 
-
 [extra]
 # Put all your custom variables here
 toc = true
 
+header_menu_name = "menu_name"
 
 [extra.menus]
 menu_name = [
