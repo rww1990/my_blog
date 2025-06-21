@@ -68,7 +68,44 @@
         ></button>
         <script>window.linkita.initSearchButton({ scripts: ["https://rww1990.github.io/my_blog/elasticlunr.min.js", "https://rww1990.github.io/my_blog/search_index.en.js"] });</script>
       </div>
+      <div title="Menu" role="button" accesskey="+" tabindex="0"
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        onclick="window.linkita.toggleHeaderMenu();"
+        onkeydown="(event.keyCode == 13 || event.keyCode == 32) ? event.preventDefault() || window.linkita.toggleHeaderMenu() : true;"
+      ></div>
     </div>
+    <nav class="flex w-full items-center lg:w-auto">
+      <menu
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0">
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://rww1990.github.io/my_blog/blog/"
+          >Archive</a>
+        </li>
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://rww1990.github.io/my_blog/categories/"
+          >Categories</a>
+        </li>
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://rww1990.github.io/my_blog/tags/"
+          >Tags</a>
+        </li>
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://rww1990.github.io/my_blog/about/"
+          >About</a>
+        </li>
+      </menu>
+      <!-- Begin Header Nav inject -->
+      
+      <!-- End Header Nav inject -->
+    </nav>
   </div>
 </header>
 
@@ -128,7 +165,7 @@
               <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/was-ist-eine-schnittstelle/#warum-sind-schnittstellen-wichtig">Warum sind Schnittstellen wichtig?</a>
             </li>
             <li>
-              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/was-ist-eine-schnittstelle/#wie-kann-man-seine-schnittstellen-verbessern">Wie kann man seine Schnittstellen verbessern?</a>
+              <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/was-ist-eine-schnittstelle/#was-ist-der-unterschied-zur-schnittstellenanalyse">Was ist der Unterschied zur Schnittstellenanalyse?</a>
             </li>
             <li>
               <a class="no-underline hover:underline" href="https://rww1990.github.io/my_blog/was-ist-eine-schnittstelle/#haufige-fragen-faq">Häufige Fragen (FAQ)</a>
@@ -180,8 +217,8 @@
 <li>❌ Integrationsprobleme</li>
 </ul>
 <hr />
-<h2 id="wie-kann-man-seine-schnittstellen-verbessern">Wie kann man seine Schnittstellen verbessern?</h2>
-<p>Die Schnittstelle ist der <strong>Ort oder Mechanismus</strong> des Austauschs. Die <strong>Schnittstellenanalyse</strong> ist der <strong>systematische Prozess</strong>, um diese Übergabepunkte zu identifizieren, zu modellieren und zu verbessern. Sie ist Teil der Anforderungsanalyse, Architekturarbeit und Systemintegration.</p>
+<h2 id="was-ist-der-unterschied-zur-schnittstellenanalyse">Was ist der Unterschied zur Schnittstellenanalyse?</h2>
+<p>Die Schnittstelle ist der <strong>Ort oder Mechanismus</strong> des Austauschs. Die <strong>Schnittstellenanalyse</strong> hingegen ist der <strong>systematische Prozess</strong>, um diese Übergabepunkte zu identifizieren, zu modellieren und zu verbessern. Sie ist Teil der Anforderungsanalyse, Architekturarbeit und Systemintegration.</p>
 <p>👉 Lies hier weiter: <a href="../schnittstellenanalyse">Schnittstellenanalyse – Methoden, Vorlagen &amp; Best Practices</a></p>
 <hr />
 <h2 id="haufige-fragen-faq">Häufige Fragen (FAQ)</h2>
@@ -195,6 +232,46 @@
 <p>Weil sie den Erfolg der Integration, Modularisierung und Wartbarkeit direkt beeinflussen.</p>
 <hr />
 <p><strong>Fazit:</strong> Schnittstellen sind keine Nebensache – sie sind der strukturierende Rahmen jeder Interaktion. Wer sie versteht, legt die Basis für reibungslose Kommunikation, funktionierende Systeme und erfolgreiche Projekte.</p>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Was ist eine Schnittstelle einfach erklärt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ein verbindender Punkt zwischen zwei Systemen oder Personen, an dem Informationen ausgetauscht werden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was ist eine technische Schnittstelle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ein physischer oder logischer Mechanismus, der regelt, wie Systeme Daten austauschen – z. B. über USB, APIs oder Datenformate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gibt es auch Schnittstellen außerhalb der Technik?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja – in Organisationen, Prozessen, Projekten oder Kommunikation zwischen Menschen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Warum sind Schnittstellen kritisch in IT-Projekten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Weil sie den Erfolg der Integration, Modularisierung und Wartbarkeit direkt beeinflussen."
+      }
+    }
+  ]
+}
+</script>
 </section>
   <hr />
   <!-- Post Taxonomies -->
