@@ -1,14 +1,15 @@
 +++
-title = "Schnittstellenanalyse"
-slug = "schnittstellenanalyse"
-description = "Erfahren Sie, wie Schnittstellenanalyse in IT-Projekten funktioniert: Mit Beispielen, Vorlagen und Methoden."
-# The last updated date of the post 
-date = 2025-04-30
+title = "Was ist eine Schnittstelle? Definition, Beispiele & Bedeutung in IT-Systemen"
+description = "Eine Schnittstelle verbindet Systeme, Menschen und Prozesse. Erfahre, was Schnittstellen in IT, Software, Hardware und Organisation bedeuten – kompakt erklärt."
+slug = "was-ist-eine-schnittstelle"
+date = 2025-06-20
 updated = 2025-04-30
+lang = "de"
+
 
 [taxonomies]
 # categories = []
-tags = ["schnittstellenanalyse", "anforderungsanalyse", "devops", "api", "vorlage"]
+tags = ["schnittstelle", "schnittstellen", "definition", "it", "software"]
 
 [extra]
 
