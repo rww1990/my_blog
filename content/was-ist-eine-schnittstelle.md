@@ -36,7 +36,7 @@ section = "_index.md"
 [extra.cover]
 
 # Path to the cover image.
-image = "/images/schnittstellenanalyse.webp"
+image = "/images/schnittstelle.webp"
 # A description of the cover image.
 alt = "screenshot"
 
@@ -106,9 +106,9 @@ Fehlen klare Schnittstellen, entstehen:
 
 ---
 
-## Was ist der Unterschied zur Schnittstellenanalyse?
+## Wie kann man seine Schnittstellen verbessern?
 
-Die Schnittstelle ist der **Ort oder Mechanismus** des Austauschs. Die **Schnittstellenanalyse** hingegen ist der **systematische Prozess**, um diese Übergabepunkte zu identifizieren, zu modellieren und zu verbessern. Sie ist Teil der Anforderungsanalyse, Architekturarbeit und Systemintegration.
+Die Schnittstelle ist der **Ort oder Mechanismus** des Austauschs. Die **Schnittstellenanalyse** ist der **systematische Prozess**, um diese Übergabepunkte zu identifizieren, zu modellieren und zu verbessern. Sie ist Teil der Anforderungsanalyse, Architekturarbeit und Systemintegration.
 
 👉 Lies hier weiter: [Schnittstellenanalyse – Methoden, Vorlagen & Best Practices](../schnittstellenanalyse)
 
@@ -135,3 +135,4 @@ Weil sie den Erfolg der Integration, Modularisierung und Wartbarkeit direkt beei
 ---
 
 **Fazit:** Schnittstellen sind keine Nebensache – sie sind der strukturierende Rahmen jeder Interaktion. Wer sie versteht, legt die Basis für reibungslose Kommunikation, funktionierende Systeme und erfolgreiche Projekte.
+ 
