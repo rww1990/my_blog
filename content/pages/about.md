@@ -1,12 +1,10 @@
 +++
 title = "Über BA-Tools"
 template = "page.html"
-sort_by = "date"
-insert_anchor_links = "left"
 path = "about"
 +++
 
-**BA-Tools ist ein Blog für alle, die in komplexen Projekten echte Entscheidungen treffen – nicht nur Präsentationen halten.**
+# BA-Tools ist ein Blog für alle, die in komplexen Projekten Entscheidungen treffen.
 
 Ob Business Analyse, Anforderungsmanagement oder agile Produktentwicklung:  
 Hier findest du praxisnahe Werkzeuge, strukturierte Denkansätze und Erfahrungen aus echten Vorhaben – ergänzt durch die analytische Klarheit, die moderne KI liefern kann.
@@ -15,7 +13,7 @@ Die Inhalte entstehen KI-gestützt, werden aber redaktionell geprüft, kontextua
 
 ---
 
-### Warum dieser Blog?
+## Warum dieser Blog?
 
 Die meisten Methodenratgeber ignorieren, wie widersprüchlich reale Anforderungen sind.  
 BA-Tools will das ändern – durch Inhalte, die zwischen **technischer Machbarkeit, geschäftlichem Nutzen und menschlicher Realität** vermitteln.
@@ -24,7 +22,7 @@ Hier geht es nicht um dogmatische Frameworks, sondern um konkrete Unterstützung
 
 ---
 
-### Über den Autor
+## Über den Autor
 
 Ich arbeite seit über acht Jahren an der Schnittstelle von Fachbereich und IT – als **Anforderungsmanager**, **Agile-Leader** und manchmal auch einfach als **Problemlöser**.
 
