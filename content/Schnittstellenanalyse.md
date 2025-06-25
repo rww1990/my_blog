@@ -7,7 +7,7 @@ date = 2025-04-30
 updated = 2025-04-30
 
 [taxonomies]
-# categories = []
+categories = [business analysis]
 tags = ["schnittstellenanalyse", "anforderungsanalyse", "devops", "api", "vorlage"]
 
 [extra]
