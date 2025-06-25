@@ -5,9 +5,6 @@ slug = "was-ist-eine-schnittstelle"
 date = 2025-06-20
 updated = 2025-04-30
 
-[taxonomies]
-# categories = []
-tags = ["schnittstelle", "schnittstellen", "definition", "it", "software"]
 
 [extra]
 

@@ -8,7 +8,7 @@ updated = 2025-04-30
 
 [taxonomies]
 categories = ["business analysis"]
-tags = ["schnittstellenanalyse", "anforderungsanalyse", "devops", "api", "vorlage"]
+tags = ["methode", "vorlage"]
 
 [extra]
 
