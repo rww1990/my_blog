@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://rww1990.github.io/my_blog/sitemap.xml
+Sitemap: https://ba-tools.de/sitemap.xml
