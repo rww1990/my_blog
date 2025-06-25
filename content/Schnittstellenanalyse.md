@@ -6,9 +6,6 @@ slug = "schnittstellenanalyse"
 date = 2025-04-30
 updated = 2025-04-30
 
-[taxonomies]
-categories = ["business analysis"]
-tags = ["methode", "vorlage"]
 
 [extra]
 
