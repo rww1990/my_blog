@@ -3,6 +3,7 @@ title = "Über BA-Tools"
 template = "page.html"
 sort_by = "date"
 insert_anchor_links = "left"
+path = "about"
 +++
 
 **BA-Tools ist ein Blog für alle, die in komplexen Projekten echte Entscheidungen treffen – nicht nur Präsentationen halten.**
