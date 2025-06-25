@@ -14,12 +14,12 @@ build_search_index = true
 [[taxonomies]]
 name = "tags"
 feed = true
-paginate_by = 4
+# paginate_by = 4
 
 [[taxonomies]]
 name = "categories"
 feed = true
-paginate_by = 4
+# paginate_by = 4
 
 [markdown]
 # Whether to do syntax highlighting
