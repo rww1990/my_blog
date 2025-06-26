@@ -4,7 +4,14 @@
   <loc>https://ba-tools.de/</loc>
 </url>
 <url>
-  <loc>https://ba-tools.de/article/</loc>
+  <loc>https://ba-tools.de/about/</loc>
+</url>
+<url>
+  <loc>https://ba-tools.de/schnittstellenanalyse/</loc>
+  <lastmod>2025-04-30</lastmod>
+</url>
+<url>
+  <loc>https://ba-tools.de/was-ist-eine-schnittstelle/</loc>
   <lastmod>2025-04-30</lastmod>
 </url>
 </urlset>
