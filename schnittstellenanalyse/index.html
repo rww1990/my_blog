@@ -133,6 +133,9 @@
               <a class="no-underline hover:underline" href="https://ba-tools.de/schnittstellenanalyse/#was-ist-eine-schnittstellenanalyse">Was ist eine Schnittstellenanalyse?</a>
             </li>
             <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/schnittstellenanalyse/#schnittstellenbeschreibung">Schnittstellenbeschreibung</a>
+            </li>
+            <li>
               <a class="no-underline hover:underline" href="https://ba-tools.de/schnittstellenanalyse/#ziele-und-nutzen">Ziele und Nutzen</a>
             </li>
             <li>
@@ -187,34 +190,17 @@
 <li><strong>Für wen</strong> ist sie relevant?</li>
 </ul>
 <p>Diese Analyse ist sowohl im technischen Umfeld (z. B. APIs) als auch im geschäftlichen Kontext (z. B. Prozessübergaben) zentral.</p>
-<p>##Schnittstellenbeschreibung</p>
+<h2 id="schnittstellenbeschreibung">Schnittstellenbeschreibung</h2>
 <pre class="mermaid bg-inherit" translate="no">
   flowchart TD
-    A[Startpunkt des Prozesses] --&gt; B[Bestandteile der Schnittstelle]
+    A[Schnittstelle] --&gt; B[Was wird übertragen?]
+    A --&gt; C[Wann erfolgt der Austausch?]
+    A --&gt; D[Wie ist sie gestaltet?]
 
-    B --&gt; C{Was wird übertragen?}
-    C --&gt; C1[Daten]
-    C --&gt; C2[Befehle]
-    C --&gt; C3[Material]
-
-    B --&gt; D{Wann erfolgt der Austausch?}
-    D --&gt; D1[Regelmäßig]
-    D --&gt; D2[Eventbasiert]
-    D --&gt; D3[Manuell bei Bedarf]
-
-    B --&gt; E[Warum ist die Schnittstelle notwendig?]
-    E --&gt; E1[Silos abbauen]
-    E --&gt; E2[Automatisierung]
-    E --&gt; E3[Verlässliche Kommunikation]
-
-    B --&gt; F{Wie ist sie gestaltet?}
-    F --&gt; F1[Technisch: API, Dateiimport]
-    F --&gt; F2[Organisatorisch: Meeting, Prozess]
-
-    B --&gt; G[Wer ist betroffen?]
-    G --&gt; G1[IT]
-    G --&gt; G2[Fachbereich]
-    G --&gt; G3[Projektteam]
+    B --&gt; B1[Daten &#x2F; Befehle]
+    C --&gt; C1[Regelmäßig &#x2F; Ereignisgesteuert]
+    D --&gt; D1[Technisch: API, Datei]
+    D --&gt; D2[Organisatorisch: Prozess, Meeting]
 </pre>
 <h2 id="ziele-und-nutzen">Ziele und Nutzen</h2>
 <p>Eine frühzeitige Schnittstellenanalyse hat mehrere zentrale Vorteile:</p>
