@@ -37,3 +37,11 @@ header_menu_name = "menu_name"
 menu_name = [
   { url = "$BASE_URL/about/", name = "About" },
 ]
+
+[extra.profiles.your_username]
+social = [
+    { name = "bluesky", url = "https://bsky.app/profile/username" },
+    { name = "github", url = "https://github.com/username" },
+    { name = "email", url = "mailto:example@example.com" },
+    { name = "rss", url = "$BASE_URL/atom.xml" },
+]
