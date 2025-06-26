@@ -1,5 +1,7 @@
 theme = "linkita"
 
+title = "ba_tools"
+
 # The URL the site will be built for
 base_url = "https://ba-tools.de"
 
