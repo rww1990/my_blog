@@ -67,11 +67,13 @@ Dabei werden zentrale Fragen geklärt:
 Diese Analyse ist sowohl im technischen Umfeld (z. B. APIs) als auch im geschäftlichen Kontext (z. B. Prozessübergaben) zentral.
 
 
-## Schnittstellenübersicht
+## Schnittstellenbeschreibung
 
-```mermaid
+{% mermaid() %}
+
 flowchart TD
     A[Startpunkt eines Prozesses] --> B[Woraus besteht die Schnittstelle?]
+
     B --> C{Was wird übertragen?}
     C --> C1[Daten]
     C --> C2[Befehle]
@@ -88,15 +90,15 @@ flowchart TD
     E --> E3[Zuverlässige Kommunikation]
 
     B --> F{Wie ist sie gestaltet?}
-    F --> F1[Technisch (z.B. API, Dateiimport)]
-    F --> F2[Organisatorisch (z.B. Meeting, Prozessdokument)]
+    F --> F1[Technisch (z. B. API, Dateiimport)]
+    F --> F2[Organisatorisch (z. B. Meeting, Prozessdokument)]
 
     B --> G[Für wen ist die Schnittstelle relevant?]
     G --> G1[IT]
     G --> G2[Business]
     G --> G3[Projektteam]
 
-
+{% end %}
 
 ## Ziele und Nutzen
 
