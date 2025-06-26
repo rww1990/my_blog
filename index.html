@@ -96,28 +96,6 @@
   <figure class="mb-4 mt-0">
     <img
       class="h-auto w-full rounded-lg"
-      src="https://ba-tools.de/images/schnittstellenanalyse.webp"
-      alt="screenshot"
-    />
-  </figure>
-
-  <h2 class="!my-0 pb-1 font-bold !leading-none">Schnittstellenanalyse</h2>
-  <div class="not-prose my-1 truncate">
-    <p>Erfahren Sie, wie Schnittstellenanalyse in IT-Projekten funktioniert: Mit Beispielen, Vorlagen und Methoden.</p>
-  </div>
-
-  <!-- Page Info -->
-<div class="text-sm antialiased opacity-80">
-</div>
-
-  <a class="absolute inset-0 text-[0]" href="https://ba-tools.de/schnittstellenanalyse/">Schnittstellenanalyse</a>
-</section>
-<section
-  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
->
-  <figure class="mb-4 mt-0">
-    <img
-      class="h-auto w-full rounded-lg"
       src="https://ba-tools.de/images/schnittstelle.webp"
       alt="Bunte Kreise überschneiden sich"
     />
@@ -133,6 +111,28 @@
 </div>
 
   <a class="absolute inset-0 text-[0]" href="https://ba-tools.de/was-ist-eine-schnittstelle/">Was ist eine Schnittstelle? Definition, Beispiele &amp; Bedeutung in IT-Systemen</a>
+</section>
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <figure class="mb-4 mt-0">
+    <img
+      class="h-auto w-full rounded-lg"
+      src="https://ba-tools.de/images/schnittstellenanalyse.webp"
+      alt="screenshot"
+    />
+  </figure>
+
+  <h2 class="!my-0 pb-1 font-bold !leading-none">Schnittstellenanalyse</h2>
+  <div class="not-prose my-1 truncate">
+    <p>Erfahren Sie, wie Schnittstellenanalyse in IT-Projekten funktioniert: Mit Beispielen, Vorlagen und Methoden.</p>
+  </div>
+
+  <!-- Page Info -->
+<div class="text-sm antialiased opacity-80">
+</div>
+
+  <a class="absolute inset-0 text-[0]" href="https://ba-tools.de/schnittstellenanalyse/">Schnittstellenanalyse</a>
 </section>
 
     
@@ -154,6 +154,40 @@
 </footer>
 
   
+    <!-- Mermaid -->
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  function initMermaid(isDark) {
+    mermaid.initialize({
+      theme: isDark ? "dark" : "default",
+      themeVariables: {
+        darkMode: isDark
+      },
+      startOnLoad: false,
+    });
+    mermaid.run();
+  };
+
+  // Add data-mermaid-code attribute on all mermaid block.
+  document.querySelectorAll(".mermaid").forEach((element) => {
+    element.setAttribute("data-mermaid-code", element.innerHTML);
+  });
+
+  initMermaid(document.documentElement.classList.contains("dark"));
+
+  // Re-render mermaid when theme changed.
+  document.body.addEventListener("set-theme", (e) => {
+    document.querySelectorAll(".mermaid").forEach((element) => {
+      const mermaidCode = element.getAttribute("data-mermaid-code");
+      if (mermaidCode != null) {
+        element.removeAttribute("data-processed");
+        element.innerHTML = mermaidCode;
+      }
+    });
+    initMermaid(e.detail === "dark");
+  });
+</script>
+
 
   <!-- Begin Body End inject -->
   
