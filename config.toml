@@ -31,12 +31,16 @@ highlight_code = true
 # Put all your custom variables here
 toc = true
 
+mermaid = true
+
 header_menu_name = "menu_name"
 
 [extra.menus]
 menu_name = [
   { url = "$BASE_URL/about/", name = "About" },
 ]
+
+
 
 [extra.profiles.your_username]
 social = [
