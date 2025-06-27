@@ -1,5 +1,5 @@
 +++
-title = "IREB, ITIL und DevOps – Komplementär oder widersprüchlich?"
+title = "IREB, ITIL und DevOps – Theorie und Praxis"
 description = "Ein reflektierter Blick auf die Kombination verbreiteter Frameworks für Requirements Engineering, IT-Service-Management und agile IT-Betriebsmodelle."
 slug = "ireb-itil-devops"
 date = 2025-06-27
