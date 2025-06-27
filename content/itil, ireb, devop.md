@@ -1,7 +1,7 @@
 +++
-title = "Requirements Management im IT-Betrieb – Zwischen Incident Queue und Change Advisory Board"
-description = "Ein kritischer Blick auf die Rolle von Anforderungen in laufenden IT-Service-Umgebungen – jenseits von Projektlogik und Entwicklungszyklen."
-slug = "requirements-management-it-betrieb"
+title = "IREB, ITIL und DevOps – Komplementär oder widersprüchlich?"
+description = "Ein reflektierter Blick auf die Kombination verbreiteter Frameworks für Requirements Engineering, IT-Service-Management und agile IT-Betriebsmodelle."
+slug = "ireb-itil-devops"
 date = 2025-06-27
 updated = 2025-06-27
 
@@ -15,73 +15,72 @@ toc = true
 section = "_index.md"
 
 [extra.cover]
-image = "/images/schnittstellenanalyse.webp"
-alt = "Stilisierte Blöcke als Symbol für methodische Integration"
+image = "/images/default-cover.webp"
+alt = "Coverbild"
 +++
 
-# Requirements Management im IT-Betrieb – Zwischen Incident Queue und Change Advisory Board
+# IREB, ITIL und DevOps – Komplementär oder widersprüchlich?
 
 ## Einleitung
 
-Requirements Engineering gilt gemeinhin als Disziplin der Projektwelt. Doch Anforderungen entstehen nicht nur vor oder während der Softwareentwicklung – sie entstehen auch im laufenden Betrieb: durch Nutzerfeedback, regulatorische Anpassungen oder Betriebsstörungen. Wer Requirements Management ausschließlich als vorgelagerte Disziplin versteht, riskiert blinde Flecken an einer entscheidenden Stelle der Wertschöpfung.
+IREB, ITIL und DevOps stehen für unterschiedliche disziplinäre Perspektiven: strukturierte Anforderungserhebung, regelbasiertes Service-Management und kontinuierliche, automatisierte Auslieferung. In der Projektpraxis begegnen sie sich dennoch regelmäßig – oft unfreiwillig. Dieser Beitrag beleuchtet, wie diese Ansätze zusammenspielen (können), wo sie sich reiben und was dies für die Gestaltung hybrider Betriebs- und Entwicklungsmodelle bedeutet.
 
-## Anforderungen im Betrieb: Quellen, Formen, Konflikte
+## Spannungsfelder und Schnittstellen
 
-Im produktiven Betrieb entstehen Anforderungen kontinuierlich, allerdings selten als formal strukturierte Spezifikationen. Typische Quellen sind:
+**IREB** fokussiert sich auf die disziplinierte Erhebung, Dokumentation und Validierung von Anforderungen – häufig im Kontext klassischer Projektorganisation. **ITIL** versteht IT als Dienstleistung, mit Fokus auf Stabilität, Rollenklärung und Lifecycle-Prozesse. **DevOps** hingegen priorisiert Geschwindigkeit, Automatisierung und cross-funktionale Zusammenarbeit.
 
-- **Incidents und Problem-Tickets**
-- **Change Requests**
-- **Compliance- und Security-Anforderungen**
-- **Beobachtungen aus Monitoring und Logging**
+Diese Paradigmen bringen unterschiedliche implizite Annahmen mit:
 
-Diese Anforderungen stehen häufig in einem Spannungsfeld:
-- zwischen Stabilität (ITIL) und Veränderung (DevOps),
-- zwischen operativer Dringlichkeit und strategischer Planung,
-- zwischen implizitem Erfahrungswissen und formalisierter Dokumentation.
+- IREB erwartet ein zumindest temporär stabiles Zielsystem.
+- ITIL setzt auf klare Verantwortlichkeiten und etablierte Prozesse.
+- DevOps hinterfragt beides: Ziele und Prozesse sollen kontinuierlich weiterentwickelt werden.
 
-## Praktische Muster für Requirements Management im Betrieb
+An ihren Rändern treffen diese Modelle aufeinander: Das Anforderungsmanagement (IREB) definiert, was geliefert werden soll. DevOps sorgt für die Umsetzung und das Deployment. ITIL regelt den Betrieb und die Störungsbehebung. Friktionen entstehen dort, wo diese Übergänge nicht synchronisiert sind.
 
-### 1. Betriebssicht in das Anforderungsboard integrieren
-### 2. Bidirektionales Tracing zwischen Incident- und RE-Objekten
-### 3. Change Management als integrativer Anforderungskanal
+## Kombinationsszenarien: Praktische Muster statt Framework-Dogmen
 
-## Diagramm
+In der Praxis zeigt sich: Die Integration dieser Modelle erfordert bewusste Übersetzungsarbeit. Einige erprobte Ansätze:
+
+- **Serviceorientiertes Requirements Engineering**: Anforderungen werden nicht nur aus Sicht der Nutzer:innen, sondern auch aus Sicht der Serviceverantwortlichen (ITIL) formuliert – inklusive nicht-funktionaler Anforderungen wie Availability oder Maintainability.
+  
+- **DevOps-kompatible Spezifikationen**: IREB-Artefakte wie Use Cases oder User Stories werden so gestaltet, dass sie CI/CD-fähig sind – etwa durch präzise, testbare Akzeptanzkriterien oder standardisierte Schnittstellenbeschreibungen.
+
+- **Shift-Left im Change Management**: ITIL-Prozesse für Changes werden durch DevOps-Prinzipien angereichert, etwa durch automatisierte Impact-Analysen auf Basis von Requirements-Tracing oder durch Feature-Flags statt klassischer Rollouts.
+
+Diese Muster setzen allerdings voraus, dass die Teams nicht in Frameworks denken, sondern in Aufgaben und Verantwortungsübergängen.
+
+## Diagramm (optional)
 
 {% mermaid() %}
 flowchart TD
-    I[Incident / Problem] --> A[Analyse und Kategorisierung]
-    A -->|nicht-relevant| X[Abschluss]
-    A -->|potentieller Bedarf| R[Anforderung ableiten]
-    R --> B[Story / Change formulieren]
-    B --> C[Entwicklung / Umsetzung]
-    C --> D[Deployment in Betrieb]
-    D --> F[Überprüfung im Monitoring]
-    F -->|Problem gelöst| X
-    F -->|Problem besteht| I
+    A[IREB: Anforderungen erheben] --> B[DevOps: Umsetzen und deployen]
+    B --> C[ITIL: Betrieb und Support]
+    C --> D[Feedback an Requirements]
+    D --> A
 {% end %}
 
-## Tipps oder Zusammenfassung
+## Empfehlungen für die Praxis
 
-- Requirements entstehen auch im Betrieb – RE endet nicht mit dem Go-Live.
-- Nicht jede Beobachtung ist eine Anforderung – aber jede sollte geprüft werden.
-- Tracing zwischen Incidents, Changes und Anforderungen ist essenziell.
-- Change-Prozesse bieten wertvolle Kontexte für RE – wenn sie genutzt werden.
+- Kombinationsfähigkeit hängt weniger von Methoden, mehr von Kultur und Übersetzungsarbeit ab.
+- Frameworks dürfen nicht zum Selbstzweck werden – sie müssen konkrete Probleme adressieren.
+- Rollen wie Business Analyst:innen oder Service Owner sind prädestiniert, Brücken zwischen den Modellen zu schlagen.
+- Werkzeuge wie Requirement-Tools, CMDBs oder CI/CD-Pipelines müssen aufeinander abgestimmt sein.
 
 ---
 
 ## Fazit
 
-Requirements Management endet nicht mit dem Go-Live. Im Gegenteil: Der produktive Betrieb ist ein permanenter Resonanzraum für Anforderungen – vorausgesetzt, man richtet die richtigen Antennen aus. Wer RE als Teil des Betriebs versteht, schafft die Grundlage für kontinuierliche Verbesserung – jenseits von DevOps-Rhetorik und ITIL-Schablonen.
+IREB, ITIL und DevOps lassen sich kombinieren – wenn sie als Baukästen verstanden werden, nicht als Religionen. Ihre Integration erfordert kritisches Denken, Rollenklärung und die Bereitschaft, etablierte Silos zu hinterfragen. Eine „One-Size-Fits-All“-Lösung gibt es nicht, wohl aber robuste Muster für ein kooperatives Zusammenspiel.
 
 ## Häufige Fragen (FAQ)
 
-### Muss man im Betrieb tatsächlich vollständige Anforderungen dokumentieren?
+### Ist es überhaupt sinnvoll, klassische Modelle wie ITIL mit agilen Ansätzen wie DevOps zu kombinieren?
 
-Nein, aber man braucht strukturierte Entscheidungen über Anforderungen – auch im Betrieb. Das heißt: Klarheit über Bedarf, Wirkung und Bewertungskriterien. Das Dokument ist zweitrangig, das gemeinsame Verständnis zentral.
+Ja, sofern die jeweiligen Stärken genutzt und Zielkonflikte offen adressiert werden. ITIL bietet Struktur und Stabilität, DevOps Geschwindigkeit und Flexibilität. Der Mehrwert liegt in der bewussten Kombination.
 
-### Wie unterscheidet man Anforderungen von reinen Betriebsaufgaben?
+### Welche Rolle spielt Requirements Engineering in einem DevOps-Umfeld?
 
-Durch Wirkungsperspektive: Betriebsaufgaben zielen auf Wiederherstellung (Incident), Anforderungen auf Veränderung. Die Grenze ist nicht immer scharf – aber sie ist relevant für Budgetierung, Priorisierung und Qualitätsmanagement.
+Auch in DevOps bleibt sauberes Requirements Engineering wichtig – nicht als Wasserfall-Vorarbeit, sondern als kontinuierlicher Prozess. Anforderungen müssen testbar, versionierbar und automationsfähig sein.
 
 <script type="application/ld+json">
 {
@@ -90,18 +89,18 @@ Durch Wirkungsperspektive: Betriebsaufgaben zielen auf Wiederherstellung (Incide
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Muss man im Betrieb tatsächlich vollständige Anforderungen dokumentieren?",
+      "name": "Ist es überhaupt sinnvoll, klassische Modelle wie ITIL mit agilen Ansätzen wie DevOps zu kombinieren?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nein, aber man braucht strukturierte Entscheidungen über Anforderungen – auch im Betrieb. Das heißt: Klarheit über Bedarf, Wirkung und Bewertungskriterien. Das Dokument ist zweitrangig, das gemeinsame Verständnis zentral."
+        "text": "Ja, sofern die jeweiligen Stärken genutzt und Zielkonflikte offen adressiert werden. ITIL bietet Struktur und Stabilität, DevOps Geschwindigkeit und Flexibilität. Der Mehrwert liegt in der bewussten Kombination."
       }
     },
     {
       "@type": "Question",
-      "name": "Wie unterscheidet man Anforderungen von reinen Betriebsaufgaben?",
+      "name": "Welche Rolle spielt Requirements Engineering in einem DevOps-Umfeld?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Durch Wirkungsperspektive: Betriebsaufgaben zielen auf Wiederherstellung (Incident), Anforderungen auf Veränderung. Die Grenze ist nicht immer scharf – aber sie ist relevant für Budgetierung, Priorisierung und Qualitätsmanagement."
+        "text": "Auch in DevOps bleibt sauberes Requirements Engineering wichtig – nicht als Wasserfall-Vorarbeit, sondern als kontinuierlicher Prozess. Anforderungen müssen testbar, versionierbar und automationsfähig sein."
       }
     }
   ]
