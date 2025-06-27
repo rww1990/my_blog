@@ -15,13 +15,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
- #   - name: Install Zola
- #     run: |
- #       curl -L https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-x86_64-unknown-linux-gnu.tar.gz -o zola.tar.gz
-  #      tar -xzf zola.tar.gz
-   #     sudo mv zola /usr/local/bin/
     - name: Install Zola
-      uses: sharkdp/install-zola@v1
+      run: |
+        curl -L https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-x86_64-unknown-linux-gnu.tar.gz -o zola.tar.gz
+        tar -xzf zola.tar.gz
+        sudo mv zola /usr/local/bin/
+
 
     - name: Build Site
       run: zola build

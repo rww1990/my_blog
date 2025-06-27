@@ -1,6 +1,6 @@
 +++
 template = "index.html"
-title = "BA-Tools: Methoden, Vorlagen und Know-how für IT-Anforderungsanalyse & DevOps"
+title = "BA-Tools: Methoden, Vorlagen und Wissen für Requirements Engineering & DevOps"
 description = "Praktische Tools & Methoden für IT-Anforderungsanalyse, Schnittstellenmanagement und DevOps. Jetzt Vorlagen & Best Practices entdecken – bei BA-Tools!"
 # The last updated date of the post 
 
