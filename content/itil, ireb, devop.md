@@ -47,7 +47,22 @@ In der Praxis zeigt sich: Die Integration dieser Modelle erfordert bewusste Übe
 
 - **Shift-Left im Change Management**: ITIL-Prozesse für Changes werden durch DevOps-Prinzipien angereichert, etwa durch automatisierte Impact-Analysen auf Basis von Requirements-Tracing oder durch Feature-Flags statt klassischer Rollouts.
 
+Das heißt konkret:
+
+Weg vom Ticket-basierten Change-Prozess, bei dem jede Änderung manuell genehmigt wird.
+Hin zu integrierten, automatisierten, überprüfbaren Freigaben – z. B. im Rahmen von Continuous Delivery.
+
 Diese Muster setzen allerdings voraus, dass die Teams nicht in Frameworks denken, sondern in Aufgaben und Verantwortungsübergängen.
+
+- **Beispiele**
+Automatisierte Impact-Analysen auf Basis von Requirements-Tracing
+→ Anforderungen (z. B. aus IREB) sind systematisch mit Architekturkomponenten, Testfällen und Services verknüpft.
+→ Bei Änderungen kann automatisiert ermittelt werden: „Welche Services sind betroffen? Welche Tests müssen angepasst werden?“
+
+Feature-Flags statt klassischer Rollouts
+→ Neue Funktionen werden in der Produktivumgebung ausgeliefert, aber erst nach Freigabe (z. B. durch Konfiguration) aktiviert.
+→ So wird der Rollout-Teil vom Deploy getrennt – das reduziert Risiko und erhöht Flexibilität.
+→ Der klassische ITIL-Change („Bitte Rollout am Freitag um 20 Uhr“) wird überflüssig oder zumindest stark entlastet.
 
 ## Diagramm (optional)
 

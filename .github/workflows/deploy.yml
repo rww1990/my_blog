@@ -21,6 +21,8 @@ jobs:
         tar -xzf zola.tar.gz
         sudo mv zola /usr/local/bin/
 
+    - name: Add CNAME file
+      run: echo "ba-tools.de" > ./dist/CNAME
 
     - name: Build Site
       run: zola build
