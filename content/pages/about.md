@@ -4,9 +4,9 @@ template = "page.html"
 path = "about"
 +++
 
-# ba_tools/Entscheiden in komplexen Projekten
+# ba_tools/ Entscheiden in komplexen Projekten
 
-**BA-Tools ist ein Blog für alle, die in komplexen Projekten Verantwortung tragen.**  
+**ba_tools/ ist ein Blog für alle, die in komplexen Projekten Verantwortung tragen.**  
 Ob Business Analyse, Anforderungsmanagement oder agile Produktentwicklung:  
 Hier findest du praxisnahe Werkzeuge, strukturierte Denkansätze und Erfahrungen aus echten Vorhaben – ergänzt durch die analytische Klarheit, die moderne KI ermöglichen kann.
 
@@ -18,7 +18,7 @@ Die Inhalte entstehen KI-gestützt, werden aber redaktionell geprüft, kontextua
 
 Die meisten Methodenratgeber ignorieren, wie widersprüchlich reale Anforderungen sind.
 
-**BA-Tools will das ändern.**  
+**ba_tools/ will das ändern.**  
 Dieser Blog vermittelt zwischen technischer Machbarkeit, geschäftlichem Nutzen und menschlicher Realität – ohne Dogmatismus, aber mit Anspruch.
 
 Hier geht es nicht um Frameworks um ihrer selbst willen, sondern um konkrete Unterstützung für alle, die Systeme, Anforderungen und Lösungen miteinander verzahnen müssen.
