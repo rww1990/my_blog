@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="generator" content="Zola" />
-  <title>IREB, ITIL und DevOps – Komplementär oder widersprüchlich? | ba_tools</title>
-  <meta property="og:site_name" content="ba_tools" />
+  <title>IREB, ITIL und DevOps – Komplementär oder widersprüchlich? | ba_tools/</title>
+  <meta property="og:site_name" content="ba_tools/" />
   <meta property="og:title" content="IREB, ITIL und DevOps – Komplementär oder widersprüchlich?" />
   <meta name="description" content="Ein reflektierter Blick auf die Kombination verbreiteter Frameworks für Requirements Engineering, IT-Service-Management und agile IT-Betriebsmodelle." />
   <meta property="og:description" content="Ein reflektierter Blick auf die Kombination verbreiteter Frameworks für Requirements Engineering, IT-Service-Management und agile IT-Betriebsmodelle." />
@@ -44,7 +44,7 @@
     <div class="flex justify-between">
       <div class="flex items-center min-h-8">
         <a title="Go to home page" accesskey="!"
-          href="https://ba-tools.de/" class="text-2xl font-semibold">ba_tools</a>
+          href="https://ba-tools.de/" class="text-2xl font-semibold">ba_tools&#x2F;</a>
         <button type="button" title="Switch color scheme" accesskey="$"
           onclick="window.linkita.toggleDarkMode();" ondblclick="window.linkita.resetDarkMode();"
           class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] bg-center bg-no-repeat bg-cover dark:invert [background-image:var(--icon-theme-dark)] dark:[background-image:var(--icon-theme-light)]"
@@ -173,7 +173,20 @@
 <p><strong>Shift-Left im Change Management</strong>: ITIL-Prozesse für Changes werden durch DevOps-Prinzipien angereichert, etwa durch automatisierte Impact-Analysen auf Basis von Requirements-Tracing oder durch Feature-Flags statt klassischer Rollouts.</p>
 </li>
 </ul>
+<p>Das heißt konkret:</p>
+<p>Weg vom Ticket-basierten Change-Prozess, bei dem jede Änderung manuell genehmigt wird.
+Hin zu integrierten, automatisierten, überprüfbaren Freigaben – z. B. im Rahmen von Continuous Delivery.</p>
 <p>Diese Muster setzen allerdings voraus, dass die Teams nicht in Frameworks denken, sondern in Aufgaben und Verantwortungsübergängen.</p>
+<ul>
+<li><strong>Beispiele</strong>
+Automatisierte Impact-Analysen auf Basis von Requirements-Tracing
+→ Anforderungen (z. B. aus IREB) sind systematisch mit Architekturkomponenten, Testfällen und Services verknüpft.
+→ Bei Änderungen kann automatisiert ermittelt werden: „Welche Services sind betroffen? Welche Tests müssen angepasst werden?“</li>
+</ul>
+<p>Feature-Flags statt klassischer Rollouts
+→ Neue Funktionen werden in der Produktivumgebung ausgeliefert, aber erst nach Freigabe (z. B. durch Konfiguration) aktiviert.
+→ So wird der Rollout-Teil vom Deploy getrennt – das reduziert Risiko und erhöht Flexibilität.
+→ Der klassische ITIL-Change („Bitte Rollout am Freitag um 20 Uhr“) wird überflüssig oder zumindest stark entlastet.</p>
 <h2 id="diagramm-optional">Diagramm (optional)</h2>
 <pre class="mermaid bg-inherit" translate="no">
   flowchart TD
