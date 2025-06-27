@@ -1,0 +1,298 @@
+<!doctype html>
+<html class="not-ready lg:text-base overflow-y-scroll scroll-pt-14" lang="en">
+
+<head prefix="og: https://ogp.me/ns# article: https://ogp.me/ns/article#">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="generator" content="Zola" />
+  <title>Requirements Management im IT-Betrieb – Zwischen Incident Queue und Change Advisory Board | ba_tools</title>
+  <meta property="og:site_name" content="ba_tools" />
+  <meta property="og:title" content="Requirements Management im IT-Betrieb – Zwischen Incident Queue und Change Advisory Board" />
+  <meta name="description" content="Ein kritischer Blick auf die Rolle von Anforderungen in laufenden IT-Service-Umgebungen – jenseits von Projektlogik und Entwicklungszyklen." />
+  <meta property="og:description" content="Ein kritischer Blick auf die Rolle von Anforderungen in laufenden IT-Service-Umgebungen – jenseits von Projektlogik und Entwicklungszyklen." />
+  <meta property="og:url" content="https://ba-tools.de/requirements-management-it-betrieb/" />
+  <link rel="canonical" href="https://ba-tools.de/requirements-management-it-betrieb/" />
+  <meta property="og:type" content="article" />
+  <meta property="article:published_time" content="2025-06-27T00:00:00+00:00" />
+  <meta property="article:modified_time" content="2025-06-27T00:00:00+00:00" />
+  <meta property="og:image" content="https://ba-tools.de/images/schnittstellenanalyse.webp" />
+  <meta property="og:image:alt" content="Stilisierte Blöcke als Symbol für methodische Integration" />
+  <meta property="og:image:width" content="1456" />
+  <meta property="og:image:height" content="816" />
+  <meta property="og:image:type" content="image/webp" />
+  <!-- Begin Head inject -->
+  
+  <!-- End Head inject -->
+  <link rel="stylesheet" href="https://ba-tools.de/main.min.css?h=fc65ba308cf36d3ba82c" />
+  <style>
+  :root{--bg: #f4f4f5; --header: #e4e4e7; color-scheme: light;}
+  :root.dark{--bg: #18181b; --header: #27272a; color-scheme: dark;}
+  </style>
+  <meta name="theme-color" data-light="#e4e4e7" data-dark="#27272a" content="#e4e4e7" />
+  <link rel="icon" type="image/x-icon" sizes="16x16" href="https://ba-tools.de/favicon.ico" />
+  <link rel="apple-touch-icon" type="image/png" href="https://ba-tools.de/apple-touch-icon.png?h=568cdcf67ac09a05e2a0" />
+  <link rel="icon" type="image/png" href="https://ba-tools.de/android-icon.png?h=8d80ec95446bd2c36826" />
+  <script src="https://ba-tools.de/js/linkita.min.js?h=1dd3ed42fc674277bc34"></script>
+  <script src="https://ba-tools.de/js/linkita-search.min.js?h=698547b4b081d012c661"></script>
+  <!-- Begin Head End inject -->
+  
+  <!-- End Head End inject -->
+</head>
+
+<body class="text-black duration-100 ease-out bg-[var(--bg)] dark:text-white">
+  <!-- Header -->
+<header class="bg-[var(--header)] fixed top-0 z-40 mx-auto min-h-[3.25rem] w-full header-icons">
+  <div class="mx-auto w-full max-w-4xl p-2.5 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center min-h-8">
+        <a title="Go to home page" accesskey="!"
+          href="https://ba-tools.de/" class="text-2xl font-semibold">ba_tools</a>
+        <button type="button" title="Switch color scheme" accesskey="$"
+          onclick="window.linkita.toggleDarkMode();" ondblclick="window.linkita.resetDarkMode();"
+          class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] bg-center bg-no-repeat bg-cover dark:invert [background-image:var(--icon-theme-dark)] dark:[background-image:var(--icon-theme-light)]"
+        ></button>
+        <button type="button" title="Search" accesskey="/"
+          onclick="window.linkita.toggleSearch();"
+          class="btn-search ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] bg-center bg-no-repeat bg-cover [background-image:var(--icon-search)] dark:invert"
+        ></button>
+        <script>window.linkita.initSearchButton({ scripts: ["https://ba-tools.de/elasticlunr.min.js", "https://ba-tools.de/search_index.en.js"] });</script>
+      </div>
+      <div title="Menu" role="button" accesskey="+" tabindex="0"
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        onclick="window.linkita.toggleHeaderMenu();"
+        onkeydown="(event.keyCode == 13 || event.keyCode == 32) ? event.preventDefault() || window.linkita.toggleHeaderMenu() : true;"
+      ></div>
+    </div>
+    <nav class="flex w-full items-center lg:w-auto">
+      <menu
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0">
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://ba-tools.de/about/"
+          >About</a>
+        </li>
+      </menu>
+      <!-- Begin Header Nav inject -->
+      
+      <!-- End Header Nav inject -->
+    </nav>
+  </div>
+</header>
+
+  <!-- Begin Body Start inject -->
+  
+  <!-- End Body Start inject -->
+  <main class="prose prose-neutral relative mx-auto min-h-[calc(100%-4rem)]
+    max-w-3xl break-words px-4 pb-12 pt-28 lg:pt-32 dark:prose-invert prose-pre:rounded-lg prose-img:rounded-lg">
+      <!-- Search -->
+<div id="linkita-search-wrapper" class="hidden">
+  <ul id="linkita-search-results"></ul>
+</div>
+
+    
+<article>
+  <!-- Begin Page Start inject -->
+  
+  <!-- End Page Start inject -->
+
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Requirements Management im IT-Betrieb – Zwischen Incident Queue und Change Advisory Board</h1>
+    <!-- Page Info -->
+<div class="text-sm antialiased opacity-80">
+</div>
+
+  </header>
+  <figure class="mb-12 mt-0">
+    <img
+      class="h-auto w-full rounded-lg"
+      src="https://ba-tools.de/images/schnittstellenanalyse.webp"
+      alt="Stilisierte Blöcke als Symbol für methodische Integration"
+      width="1456"
+      height="816"
+    />
+  </figure>
+  <!-- TOC -->
+<div class="block-bg mb-12 rounded-lg p-2 text-lg">
+  <details>
+    <summary class="select-none py-0.5 lg:py-1 pl-4" accesskey="=">
+      <span class="cursor-pointer">Table of Contents</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        <li>
+          <a class="no-underline hover:underline" href="https://ba-tools.de/requirements-management-it-betrieb/#requirements-management-im-it-betrieb-zwischen-incident-queue-und-change-advisory-board">Requirements Management im IT-Betrieb – Zwischen Incident Queue und Change Advisory Board</a>
+          <ul>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/requirements-management-it-betrieb/#einleitung">Einleitung</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/requirements-management-it-betrieb/#anforderungen-im-betrieb-quellen-formen-konflikte">Anforderungen im Betrieb: Quellen, Formen, Konflikte</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/requirements-management-it-betrieb/#praktische-muster-fur-requirements-management-im-betrieb">Praktische Muster für Requirements Management im Betrieb</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/requirements-management-it-betrieb/#diagramm">Diagramm</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/requirements-management-it-betrieb/#tipps-oder-zusammenfassung">Tipps oder Zusammenfassung</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/requirements-management-it-betrieb/#fazit">Fazit</a>
+            </li>
+            <li>
+              <a class="no-underline hover:underline" href="https://ba-tools.de/requirements-management-it-betrieb/#haufige-fragen-faq">Häufige Fragen (FAQ)</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+  <!-- Content -->
+  <section><h1 id="requirements-management-im-it-betrieb-zwischen-incident-queue-und-change-advisory-board">Requirements Management im IT-Betrieb – Zwischen Incident Queue und Change Advisory Board</h1>
+<h2 id="einleitung">Einleitung</h2>
+<p>Requirements Engineering gilt gemeinhin als Disziplin der Projektwelt. Doch Anforderungen entstehen nicht nur vor oder während der Softwareentwicklung – sie entstehen auch im laufenden Betrieb: durch Nutzerfeedback, regulatorische Anpassungen oder Betriebsstörungen. Wer Requirements Management ausschließlich als vorgelagerte Disziplin versteht, riskiert blinde Flecken an einer entscheidenden Stelle der Wertschöpfung.</p>
+<h2 id="anforderungen-im-betrieb-quellen-formen-konflikte">Anforderungen im Betrieb: Quellen, Formen, Konflikte</h2>
+<p>Im produktiven Betrieb entstehen Anforderungen kontinuierlich, allerdings selten als formal strukturierte Spezifikationen. Typische Quellen sind:</p>
+<ul>
+<li><strong>Incidents und Problem-Tickets</strong></li>
+<li><strong>Change Requests</strong></li>
+<li><strong>Compliance- und Security-Anforderungen</strong></li>
+<li><strong>Beobachtungen aus Monitoring und Logging</strong></li>
+</ul>
+<p>Diese Anforderungen stehen häufig in einem Spannungsfeld:</p>
+<ul>
+<li>zwischen Stabilität (ITIL) und Veränderung (DevOps),</li>
+<li>zwischen operativer Dringlichkeit und strategischer Planung,</li>
+<li>zwischen implizitem Erfahrungswissen und formalisierter Dokumentation.</li>
+</ul>
+<h2 id="praktische-muster-fur-requirements-management-im-betrieb">Praktische Muster für Requirements Management im Betrieb</h2>
+<h3 id="1-betriebssicht-in-das-anforderungsboard-integrieren">1. Betriebssicht in das Anforderungsboard integrieren</h3>
+<h3 id="2-bidirektionales-tracing-zwischen-incident-und-re-objekten">2. Bidirektionales Tracing zwischen Incident- und RE-Objekten</h3>
+<h3 id="3-change-management-als-integrativer-anforderungskanal">3. Change Management als integrativer Anforderungskanal</h3>
+<h2 id="diagramm">Diagramm</h2>
+<pre class="mermaid bg-inherit" translate="no">
+  flowchart TD
+    I[Incident &#x2F; Problem] --&gt; A[Analyse und Kategorisierung]
+    A --&gt;|nicht-relevant| X[Abschluss]
+    A --&gt;|potentieller Bedarf| R[Anforderung ableiten]
+    R --&gt; B[Story &#x2F; Change formulieren]
+    B --&gt; C[Entwicklung &#x2F; Umsetzung]
+    C --&gt; D[Deployment in Betrieb]
+    D --&gt; F[Überprüfung im Monitoring]
+    F --&gt;|Problem gelöst| X
+    F --&gt;|Problem besteht| I
+</pre>
+<h2 id="tipps-oder-zusammenfassung">Tipps oder Zusammenfassung</h2>
+<ul>
+<li>Requirements entstehen auch im Betrieb – RE endet nicht mit dem Go-Live.</li>
+<li>Nicht jede Beobachtung ist eine Anforderung – aber jede sollte geprüft werden.</li>
+<li>Tracing zwischen Incidents, Changes und Anforderungen ist essenziell.</li>
+<li>Change-Prozesse bieten wertvolle Kontexte für RE – wenn sie genutzt werden.</li>
+</ul>
+<hr />
+<h2 id="fazit">Fazit</h2>
+<p>Requirements Management endet nicht mit dem Go-Live. Im Gegenteil: Der produktive Betrieb ist ein permanenter Resonanzraum für Anforderungen – vorausgesetzt, man richtet die richtigen Antennen aus. Wer RE als Teil des Betriebs versteht, schafft die Grundlage für kontinuierliche Verbesserung – jenseits von DevOps-Rhetorik und ITIL-Schablonen.</p>
+<h2 id="haufige-fragen-faq">Häufige Fragen (FAQ)</h2>
+<h3 id="muss-man-im-betrieb-tatsachlich-vollstandige-anforderungen-dokumentieren">Muss man im Betrieb tatsächlich vollständige Anforderungen dokumentieren?</h3>
+<p>Nein, aber man braucht strukturierte Entscheidungen über Anforderungen – auch im Betrieb. Das heißt: Klarheit über Bedarf, Wirkung und Bewertungskriterien. Das Dokument ist zweitrangig, das gemeinsame Verständnis zentral.</p>
+<h3 id="wie-unterscheidet-man-anforderungen-von-reinen-betriebsaufgaben">Wie unterscheidet man Anforderungen von reinen Betriebsaufgaben?</h3>
+<p>Durch Wirkungsperspektive: Betriebsaufgaben zielen auf Wiederherstellung (Incident), Anforderungen auf Veränderung. Die Grenze ist nicht immer scharf – aber sie ist relevant für Budgetierung, Priorisierung und Qualitätsmanagement.</p>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Muss man im Betrieb tatsächlich vollständige Anforderungen dokumentieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein, aber man braucht strukturierte Entscheidungen über Anforderungen – auch im Betrieb. Das heißt: Klarheit über Bedarf, Wirkung und Bewertungskriterien. Das Dokument ist zweitrangig, das gemeinsame Verständnis zentral."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie unterscheidet man Anforderungen von reinen Betriebsaufgaben?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Durch Wirkungsperspektive: Betriebsaufgaben zielen auf Wiederherstellung (Incident), Anforderungen auf Veränderung. Die Grenze ist nicht immer scharf – aber sie ist relevant für Budgetierung, Priorisierung und Qualitätsmanagement."
+      }
+    }
+  ]
+}
+</script>
+</section>
+  <hr />
+  <!-- Post Taxonomies -->
+
+  <!-- Comment -->
+
+  <!-- Begin Page End inject -->
+  
+  <!-- End Page End inject -->
+</article>
+
+  </main>
+  <!-- Footer -->
+<footer class="mx-auto flex lg:mt-5 max-w-3xl flex-wrap items-center px-4 py-3 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+  © <time datetime="2025">2025</time> Robert Wünsche
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <span class="mr-6 lg:ml-6">
+      <a class="link" href="https://www.getzola.org/" target="_blank">Powered by Zola</a>
+    </span>
+    <a class="link" href="https://www.getzola.org/themes/linkita/" target="_blank">&#9998; Linkita</a>
+  </div>
+  <!-- Begin Footer inject -->
+  
+  <!-- End Footer inject -->
+</footer>
+
+  
+    <!-- Mermaid -->
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  function initMermaid(isDark) {
+    mermaid.initialize({
+      theme: isDark ? "dark" : "default",
+      themeVariables: {
+        darkMode: isDark
+      },
+      startOnLoad: false,
+    });
+    mermaid.run();
+  };
+
+  // Add data-mermaid-code attribute on all mermaid block.
+  document.querySelectorAll(".mermaid").forEach((element) => {
+    element.setAttribute("data-mermaid-code", element.innerHTML);
+  });
+
+  initMermaid(document.documentElement.classList.contains("dark"));
+
+  // Re-render mermaid when theme changed.
+  document.body.addEventListener("set-theme", (e) => {
+    document.querySelectorAll(".mermaid").forEach((element) => {
+      const mermaidCode = element.getAttribute("data-mermaid-code");
+      if (mermaidCode != null) {
+        element.removeAttribute("data-processed");
+        element.innerHTML = mermaidCode;
+      }
+    });
+    initMermaid(e.detail === "dark");
+  });
+</script>
+
+
+  <!-- Begin Body End inject -->
+  
+  <!-- End Body End inject -->
+</body>
+
+</html>
