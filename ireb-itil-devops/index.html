@@ -177,16 +177,20 @@
 <p>Weg vom Ticket-basierten Change-Prozess, bei dem jede Änderung manuell genehmigt wird.
 Hin zu integrierten, automatisierten, überprüfbaren Freigaben – z. B. im Rahmen von Continuous Delivery.</p>
 <p>Diese Muster setzen allerdings voraus, dass die Teams nicht in Frameworks denken, sondern in Aufgaben und Verantwortungsübergängen.</p>
+<p>###Beispiele</p>
 <ul>
-<li><strong>Beispiele</strong>
-Automatisierte Impact-Analysen auf Basis von Requirements-Tracing
+<li>
+<p><strong>Automatisierte Impact-Analysen</strong> auf Basis von Requirements-Tracing
 → Anforderungen (z. B. aus IREB) sind systematisch mit Architekturkomponenten, Testfällen und Services verknüpft.
-→ Bei Änderungen kann automatisiert ermittelt werden: „Welche Services sind betroffen? Welche Tests müssen angepasst werden?“</li>
-</ul>
-<p>Feature-Flags statt klassischer Rollouts
+→ Bei Änderungen kann automatisiert ermittelt werden: „Welche Services sind betroffen? Welche Tests müssen angepasst werden?“</p>
+</li>
+<li>
+<p><strong>Feature-Flags</strong> statt klassischer Rollouts
 → Neue Funktionen werden in der Produktivumgebung ausgeliefert, aber erst nach Freigabe (z. B. durch Konfiguration) aktiviert.
 → So wird der Rollout-Teil vom Deploy getrennt – das reduziert Risiko und erhöht Flexibilität.
 → Der klassische ITIL-Change („Bitte Rollout am Freitag um 20 Uhr“) wird überflüssig oder zumindest stark entlastet.</p>
+</li>
+</ul>
 <h2 id="diagramm-optional">Diagramm (optional)</h2>
 <pre class="mermaid bg-inherit" translate="no">
   flowchart TD
