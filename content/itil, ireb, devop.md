@@ -54,12 +54,12 @@ Hin zu integrierten, automatisierten, überprüfbaren Freigaben – z. B. im R
 
 Diese Muster setzen allerdings voraus, dass die Teams nicht in Frameworks denken, sondern in Aufgaben und Verantwortungsübergängen.
 
-- **Beispiele**
-Automatisierte Impact-Analysen auf Basis von Requirements-Tracing
+###Beispiele
+- **Automatisierte Impact-Analysen** auf Basis von Requirements-Tracing
 → Anforderungen (z. B. aus IREB) sind systematisch mit Architekturkomponenten, Testfällen und Services verknüpft.
 → Bei Änderungen kann automatisiert ermittelt werden: „Welche Services sind betroffen? Welche Tests müssen angepasst werden?“
 
-Feature-Flags statt klassischer Rollouts
+- **Feature-Flags** statt klassischer Rollouts
 → Neue Funktionen werden in der Produktivumgebung ausgeliefert, aber erst nach Freigabe (z. B. durch Konfiguration) aktiviert.
 → So wird der Rollout-Teil vom Deploy getrennt – das reduziert Risiko und erhöht Flexibilität.
 → Der klassische ITIL-Change („Bitte Rollout am Freitag um 20 Uhr“) wird überflüssig oder zumindest stark entlastet.
